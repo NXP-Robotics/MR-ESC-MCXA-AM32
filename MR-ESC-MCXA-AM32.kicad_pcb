@@ -142,7 +142,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "production/Standard production files/")
 		)
 	)
 	(net 0 "")

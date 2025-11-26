@@ -583,10 +583,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "pos_files": "./",
+      "plot": "production/Standard production files/",
+      "pos_files": "production/Standard production files/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "production/Standard production files/MR-ESC-MCXA-AM32.step",
       "svg": "",
       "vrml": ""
     },
