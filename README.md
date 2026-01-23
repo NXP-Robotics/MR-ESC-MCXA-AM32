@@ -10,3 +10,6 @@ Design files are made with KiCAD.
 
 AM32 fork with MCXA153 support: [AM32 MCXA153 firmware](https://github.com/NXPHoverGames/AM32/tree/main_am32_mcxa).
 Build target for MCXA153 is "FRDM_A153".
+
+![Pre-production board x-MR-ESC-MCXA-AM32 ](images/MR-ESC-AM32_real_w_wires.png)
+
