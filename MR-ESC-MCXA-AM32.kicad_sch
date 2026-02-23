@@ -5,9 +5,9 @@
 	(uuid "2f31c863-73f6-40da-99b0-f0fd74baf06a")
 	(paper "A3")
 	(title_block
-		(title "AM32 ESC with MCXA153VFM")
-		(date "2025-01-06")
-		(rev "X1")
+		(title "AM32 ESC with MCXA133VFM")
+		(date "2026-02-23")
+		(rev "X2")
 		(company "NXP Semiconductors")
 		(comment 1 "Designer: Youri Tils")
 		(comment 2 "Reviewer: Jari van Ewijk, Peter van der Perk")
@@ -4625,17 +4625,6 @@
 		)
 		(uuid "c65e3f54-bb5d-43e1-8411-ff7f4d5e77a2")
 	)
-	(text "MCXA153VFM"
-		(exclude_from_sim no)
-		(at 142.748 154.178 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f36e2010-4684-411e-824b-a549f441813d")
-	)
 	(text_box "Revision X1: Created initial schematic"
 		(exclude_from_sim no)
 		(at 247.015 252.984 0)
@@ -5789,7 +5778,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 251.46) (xy 74.93 251.46)
+			(xy 62.23 251.46) (xy 77.47 251.46)
 		)
 		(stroke
 			(width 0)
@@ -7158,7 +7147,7 @@
 		(uuid "e8a22ad6-dfa3-4f8a-afed-58cfeaf196c0")
 	)
 	(label "VOLTSENSE"
-		(at 74.93 251.46 180)
+		(at 76.2 251.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7272,7 +7261,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Murata Electronics"
 			(at 60.96 36.83 0)
 			(effects
 				(font
@@ -7281,7 +7270,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "GRM21BR61H106KE43L"
 			(at 60.96 36.83 0)
 			(effects
 				(font
@@ -7290,7 +7279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 60.96 36.83 0)
 			(effects
 				(font
@@ -7299,7 +7288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPC0805106-35"
+		(property "Supplier PN" "490-18663-1-ND"
 			(at 60.96 36.83 0)
 			(effects
 				(font
@@ -7444,7 +7433,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Keystone Electronics"
+		(property "MF" ""
 			(at 214.63 254 0)
 			(effects
 				(font
@@ -7453,7 +7442,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "5002"
+		(property "MFPN" ""
 			(at 214.63 254 0)
 			(effects
 				(font
@@ -7462,7 +7451,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "DigiKey"
+		(property "Supplier" ""
 			(at 214.63 254 0)
 			(effects
 				(font
@@ -7471,7 +7460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "36-5002-ND"
+		(property "Supplier PN" ""
 			(at 214.63 254 0)
 			(effects
 				(font
@@ -7613,7 +7602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 382.27 212.09 0)
 			(effects
 				(font
@@ -7622,7 +7611,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPR040210K"
+		(property "Supplier PN" "311-10.0KLRCT-ND"
+			(at 382.27 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "YAGEO"
+			(at 382.27 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFPN" "RC0402FR-0710KL"
 			(at 382.27 212.09 0)
 			(effects
 				(font
@@ -8141,7 +8148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 323.85 218.44 0)
 			(effects
 				(font
@@ -8150,8 +8157,26 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPR040210K"
+		(property "Supplier PN" "311-10.0KLRCT-ND"
 			(at 323.85 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "YAGEO"
+			(at 323.85 218.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFPN" "RC0402FR-0710KL"
+			(at 323.85 218.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8228,7 +8253,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Murata Electronics"
 			(at 29.21 123.19 0)
 			(effects
 				(font
@@ -8237,7 +8262,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "GCM155R71H104KE02D"
 			(at 29.21 123.19 0)
 			(effects
 				(font
@@ -8246,7 +8271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 29.21 123.19 0)
 			(effects
 				(font
@@ -8255,7 +8280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPC0402104"
+		(property "Supplier PN" "490-10672-1-ND"
 			(at 29.21 123.19 0)
 			(effects
 				(font
@@ -8668,7 +8693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 113.03 109.22 0)
 			(effects
 				(font
@@ -8677,7 +8702,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPR040210K"
+		(property "Supplier PN" "311-10.0KLRCT-ND"
+			(at 113.03 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "YAGEO"
+			(at 113.03 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFPN" "RC0402FR-0710KL"
 			(at 113.03 109.22 0)
 			(effects
 				(font
@@ -9040,7 +9083,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Murata Electronics"
 			(at 143.51 36.83 0)
 			(effects
 				(font
@@ -9049,7 +9092,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "GRM21BR61H106KE43L"
 			(at 143.51 36.83 0)
 			(effects
 				(font
@@ -9058,7 +9101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 143.51 36.83 0)
 			(effects
 				(font
@@ -9067,7 +9110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPC0805106-35"
+		(property "Supplier PN" "490-18663-1-ND"
 			(at 143.51 36.83 0)
 			(effects
 				(font
@@ -9247,7 +9290,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Taiyo Yuden"
 			(at 245.11 111.76 0)
 			(effects
 				(font
@@ -9256,7 +9299,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "UMK107AB7105KA-T"
 			(at 245.11 111.76 0)
 			(effects
 				(font
@@ -9265,7 +9308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 245.11 111.76 0)
 			(effects
 				(font
@@ -9274,7 +9317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPC0603105"
+		(property "Supplier PN" "587-3247-1-ND"
 			(at 245.11 111.76 0)
 			(effects
 				(font
@@ -9316,7 +9359,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PSMN1R4-40YLDX"
+		(property "Value" "PSMN3R3-80YSFX"
 			(at 148.844 227.33 0)
 			(effects
 				(font
@@ -9336,7 +9379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PSMN1R4-40YLD.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PSMN3R3-80YSF.pdf"
 			(at 149.098 232.41 0)
 			(effects
 				(font
@@ -9346,7 +9389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "240A, 40V Vds, N-Channel MOSFET, 1.4mOhm Ron, LFPAK56"
+		(property "Description" "N-Channel 80 V 160A (Tc) 300W (Tc) Surface Mount LFPAK56, Power-SO8"
 			(at 145.542 211.836 0)
 			(effects
 				(font
@@ -9364,7 +9407,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "PSMN1R4-40YLDX"
+		(property "MFPN" "PSMN3R3-80YSFX"
 			(at 143.51 226.06 0)
 			(effects
 				(font
@@ -9382,7 +9425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "1727-1857-1-ND"
+		(property "Supplier PN" "1727-PSMN3R3-80YSFXCT-ND"
 			(at 143.51 226.06 0)
 			(effects
 				(font
@@ -9739,7 +9782,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PSMN1R4-40YLDX"
+		(property "Value" "PSMN3R3-80YSFX"
 			(at 240.284 212.09 0)
 			(effects
 				(font
@@ -9759,7 +9802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PSMN1R4-40YLD.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PSMN3R3-80YSF.pdf"
 			(at 240.538 217.17 0)
 			(effects
 				(font
@@ -9769,7 +9812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "240A, 40V Vds, N-Channel MOSFET, 1.4mOhm Ron, LFPAK56"
+		(property "Description" "N-Channel 80 V 160A (Tc) 300W (Tc) Surface Mount LFPAK56, Power-SO8"
 			(at 236.982 196.596 0)
 			(effects
 				(font
@@ -9787,7 +9830,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "PSMN1R4-40YLDX"
+		(property "MFPN" "PSMN3R3-80YSFX"
 			(at 234.95 210.82 0)
 			(effects
 				(font
@@ -9805,7 +9848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "1727-1857-1-ND"
+		(property "Supplier PN" "1727-PSMN3R3-80YSFXCT-ND"
 			(at 234.95 210.82 0)
 			(effects
 				(font
@@ -10025,7 +10068,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Murata Electronics"
 			(at 193.04 36.83 0)
 			(effects
 				(font
@@ -10034,7 +10077,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "GRM21BR61H106KE43L"
 			(at 193.04 36.83 0)
 			(effects
 				(font
@@ -10043,7 +10086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 193.04 36.83 0)
 			(effects
 				(font
@@ -10052,7 +10095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPC0805106-35"
+		(property "Supplier PN" "490-18663-1-ND"
 			(at 193.04 36.83 0)
 			(effects
 				(font
@@ -10161,7 +10204,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF 16V"
+		(property "Value" "1uF 10V"
 			(at 60.96 124.4599 0)
 			(effects
 				(font
@@ -10197,7 +10240,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Murata Electronics"
 			(at 57.15 123.19 0)
 			(effects
 				(font
@@ -10206,7 +10249,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "GRM155Z71A105KE01D"
 			(at 57.15 123.19 0)
 			(effects
 				(font
@@ -10215,7 +10258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 57.15 123.19 0)
 			(effects
 				(font
@@ -10224,7 +10267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPC0402105-16"
+		(property "Supplier PN" "490-GRM155Z71A105KE01DCT-ND"
 			(at 57.15 123.19 0)
 			(effects
 				(font
@@ -10333,7 +10376,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF 16V"
+		(property "Value" "1uF 10V"
 			(at 60.96 151.1299 0)
 			(effects
 				(font
@@ -10369,7 +10412,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Murata Electronics"
 			(at 57.15 149.86 0)
 			(effects
 				(font
@@ -10378,7 +10421,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "GRM155Z71A105KE01D"
 			(at 57.15 149.86 0)
 			(effects
 				(font
@@ -10387,7 +10430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 57.15 149.86 0)
 			(effects
 				(font
@@ -10396,7 +10439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPC0402105-16"
+		(property "Supplier PN" "490-GRM155Z71A105KE01DCT-ND"
 			(at 57.15 149.86 0)
 			(effects
 				(font
@@ -10762,7 +10805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 200.66 127 0)
 			(effects
 				(font
@@ -10771,7 +10814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPR04020R"
+		(property "Supplier PN" "311-0.0LRCT-ND"
 			(at 200.66 127 0)
 			(effects
 				(font
@@ -10780,7 +10823,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "YAGEO"
 			(at 200.66 127 0)
 			(effects
 				(font
@@ -10789,7 +10832,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "RC0402FR-070RL"
 			(at 200.66 127 0)
 			(effects
 				(font
@@ -10831,7 +10874,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PSMN1R4-40YLDX"
+		(property "Value" "PSMN3R3-80YSFX"
 			(at 194.564 212.09 0)
 			(effects
 				(font
@@ -10851,7 +10894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PSMN1R4-40YLD.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PSMN3R3-80YSF.pdf"
 			(at 194.818 217.17 0)
 			(effects
 				(font
@@ -10861,7 +10904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "240A, 40V Vds, N-Channel MOSFET, 1.4mOhm Ron, LFPAK56"
+		(property "Description" "N-Channel 80 V 160A (Tc) 300W (Tc) Surface Mount LFPAK56, Power-SO8"
 			(at 191.262 196.596 0)
 			(effects
 				(font
@@ -10879,7 +10922,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "PSMN1R4-40YLDX"
+		(property "MFPN" "PSMN3R3-80YSFX"
 			(at 189.23 210.82 0)
 			(effects
 				(font
@@ -10897,7 +10940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "1727-1857-1-ND"
+		(property "Supplier PN" "1727-PSMN3R3-80YSFXCT-ND"
 			(at 189.23 210.82 0)
 			(effects
 				(font
@@ -11113,7 +11156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 134.62 210.82 0)
 			(effects
 				(font
@@ -11122,8 +11165,26 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPR040220R"
+		(property "Supplier PN" "311-20LRCT-ND"
 			(at 134.62 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "YAGEO"
+			(at 134.62 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFPN" "RC0402FR-0720RL"
+			(at 134.62 210.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11302,7 +11363,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Taiyo Yuden"
 			(at 245.11 124.46 0)
 			(effects
 				(font
@@ -11311,7 +11372,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "UMK107AB7105KA-T"
 			(at 245.11 124.46 0)
 			(effects
 				(font
@@ -11320,7 +11381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 245.11 124.46 0)
 			(effects
 				(font
@@ -11329,7 +11390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPC0603105"
+		(property "Supplier PN" "587-3247-1-ND"
 			(at 245.11 124.46 0)
 			(effects
 				(font
@@ -11473,7 +11534,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Murata Electronics"
 			(at 177.8 255.27 0)
 			(effects
 				(font
@@ -11482,7 +11543,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "GCM155R71H104KE02D"
 			(at 177.8 255.27 0)
 			(effects
 				(font
@@ -11491,7 +11552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 177.8 255.27 0)
 			(effects
 				(font
@@ -11500,7 +11561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPC0402104-16"
+		(property "Supplier PN" "490-10672-1-ND"
 			(at 177.8 255.27 0)
 			(effects
 				(font
@@ -11609,7 +11670,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100k 0.1%"
 			(at 64.77 247.6499 0)
 			(effects
 				(font
@@ -11645,7 +11706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 62.23 246.38 0)
 			(effects
 				(font
@@ -11654,7 +11715,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPR0402100K"
+		(property "Supplier PN" "13-RC0402BR-07100KLCT-ND"
+			(at 62.23 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "YAGEO"
+			(at 62.23 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFPN" "RC0402BR-07100KL"
 			(at 62.23 246.38 0)
 			(effects
 				(font
@@ -11733,7 +11812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 316.23 212.09 0)
 			(effects
 				(font
@@ -11742,7 +11821,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPR040210K"
+		(property "Supplier PN" "311-10.0KLRCT-ND"
+			(at 316.23 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "YAGEO"
+			(at 316.23 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFPN" "RC0402FR-0710KL"
 			(at 316.23 212.09 0)
 			(effects
 				(font
@@ -11932,7 +12029,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Murata Electronics"
 			(at 44.45 36.83 0)
 			(effects
 				(font
@@ -11941,7 +12038,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "GRM21BR61H106KE43L"
 			(at 44.45 36.83 0)
 			(effects
 				(font
@@ -11950,7 +12047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 44.45 36.83 0)
 			(effects
 				(font
@@ -11959,7 +12056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPC0805106-35"
+		(property "Supplier PN" "490-18663-1-ND"
 			(at 44.45 36.83 0)
 			(effects
 				(font
@@ -12205,7 +12302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 316.23 224.79 0)
 			(effects
 				(font
@@ -12214,7 +12311,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPR04021K"
+		(property "Supplier PN" "311-1.00KLRCT-ND"
+			(at 316.23 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "YAGEO"
+			(at 316.23 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFPN" "RC0402FR-071KL"
 			(at 316.23 224.79 0)
 			(effects
 				(font
@@ -12293,7 +12408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 349.25 224.79 0)
 			(effects
 				(font
@@ -12302,7 +12417,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPR04021K"
+		(property "Supplier PN" "311-1.00KLRCT-ND"
+			(at 349.25 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "YAGEO"
+			(at 349.25 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFPN" "RC0402FR-071KL"
 			(at 349.25 224.79 0)
 			(effects
 				(font
@@ -12555,7 +12688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 180.34 226.06 0)
 			(effects
 				(font
@@ -12564,8 +12697,26 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPR040220R"
+		(property "Supplier PN" "311-20LRCT-ND"
 			(at 180.34 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "YAGEO"
+			(at 180.34 226.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFPN" "RC0402FR-0720RL"
+			(at 180.34 226.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12871,7 +13022,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Murata Electronics"
 			(at 162.56 241.3 0)
 			(effects
 				(font
@@ -12880,7 +13031,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "GCM155R71H104KE02D"
 			(at 162.56 241.3 0)
 			(effects
 				(font
@@ -12889,7 +13040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 162.56 241.3 0)
 			(effects
 				(font
@@ -12898,7 +13049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPC0402104-16"
+		(property "Supplier PN" "490-10672-1-ND"
 			(at 162.56 241.3 0)
 			(effects
 				(font
@@ -12977,7 +13128,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Murata Electronics"
 			(at 77.47 36.83 0)
 			(effects
 				(font
@@ -12986,7 +13137,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "GRM21BR61H106KE43L"
 			(at 77.47 36.83 0)
 			(effects
 				(font
@@ -12995,7 +13146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 77.47 36.83 0)
 			(effects
 				(font
@@ -13004,7 +13155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPC0805106-35"
+		(property "Supplier PN" "490-18663-1-ND"
 			(at 77.47 36.83 0)
 			(effects
 				(font
@@ -13401,7 +13552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 356.87 218.44 0)
 			(effects
 				(font
@@ -13410,8 +13561,26 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPR040210K"
+		(property "Supplier PN" "311-10.0KLRCT-ND"
 			(at 356.87 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "YAGEO"
+			(at 356.87 218.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFPN" "RC0402FR-0710KL"
+			(at 356.87 218.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13553,7 +13722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 134.62 226.06 0)
 			(effects
 				(font
@@ -13562,8 +13731,26 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPR040220R"
+		(property "Supplier PN" "311-20LRCT-ND"
 			(at 134.62 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "YAGEO"
+			(at 134.62 226.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFPN" "RC0402FR-0720RL"
+			(at 134.62 226.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13670,7 +13857,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PSMN1R4-40YLDX"
+		(property "Value" "PSMN3R3-80YSFX"
 			(at 240.284 227.33 0)
 			(effects
 				(font
@@ -13690,7 +13877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PSMN1R4-40YLD.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PSMN3R3-80YSF.pdf"
 			(at 240.538 232.41 0)
 			(effects
 				(font
@@ -13700,7 +13887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "240A, 40V Vds, N-Channel MOSFET, 1.4mOhm Ron, LFPAK56"
+		(property "Description" "N-Channel 80 V 160A (Tc) 300W (Tc) Surface Mount LFPAK56, Power-SO8"
 			(at 236.982 211.836 0)
 			(effects
 				(font
@@ -13718,7 +13905,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "PSMN1R4-40YLDX"
+		(property "MFPN" "PSMN3R3-80YSFX"
 			(at 234.95 226.06 0)
 			(effects
 				(font
@@ -13736,7 +13923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "1727-1857-1-ND"
+		(property "Supplier PN" "1727-PSMN3R3-80YSFXCT-ND"
 			(at 234.95 226.06 0)
 			(effects
 				(font
@@ -13889,7 +14076,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Taiyo Yuden"
 			(at 245.11 137.16 0)
 			(effects
 				(font
@@ -13898,7 +14085,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "UMK107AB7105KA-T"
 			(at 245.11 137.16 0)
 			(effects
 				(font
@@ -13907,7 +14094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 245.11 137.16 0)
 			(effects
 				(font
@@ -13916,7 +14103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPC0603105"
+		(property "Supplier PN" "587-3247-1-ND"
 			(at 245.11 137.16 0)
 			(effects
 				(font
@@ -14167,7 +14354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 349.25 212.09 0)
 			(effects
 				(font
@@ -14176,7 +14363,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPR040210K"
+		(property "Supplier PN" "311-10.0KLRCT-ND"
+			(at 349.25 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "YAGEO"
+			(at 349.25 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFPN" "RC0402FR-0710KL"
 			(at 349.25 212.09 0)
 			(effects
 				(font
@@ -14255,7 +14460,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Murata Electronics"
 			(at 160.02 36.83 0)
 			(effects
 				(font
@@ -14264,7 +14469,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "GRM21BR61H106KE43L"
 			(at 160.02 36.83 0)
 			(effects
 				(font
@@ -14273,7 +14478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 160.02 36.83 0)
 			(effects
 				(font
@@ -14282,7 +14487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPC0805106-35"
+		(property "Supplier PN" "490-18663-1-ND"
 			(at 160.02 36.83 0)
 			(effects
 				(font
@@ -14359,7 +14564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 172.72 250.19 0)
 			(effects
 				(font
@@ -14368,8 +14573,26 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPR04021K"
+		(property "Supplier PN" "311-1.00KLRCT-ND"
 			(at 172.72 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "YAGEO"
+			(at 172.72 250.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFPN" "RC0402FR-071KL"
+			(at 172.72 250.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14542,7 +14765,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PSMN1R4-40YLDX"
+		(property "Value" "PSMN3R3-80YSFX"
 			(at 148.844 212.09 0)
 			(effects
 				(font
@@ -14562,7 +14785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PSMN1R4-40YLD.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PSMN3R3-80YSF.pdf"
 			(at 149.098 217.17 0)
 			(effects
 				(font
@@ -14572,7 +14795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "240A, 40V Vds, N-Channel MOSFET, 1.4mOhm Ron, LFPAK56"
+		(property "Description" "N-Channel 80 V 160A (Tc) 300W (Tc) Surface Mount LFPAK56, Power-SO8"
 			(at 145.542 196.596 0)
 			(effects
 				(font
@@ -14590,7 +14813,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "PSMN1R4-40YLDX"
+		(property "MFPN" "PSMN3R3-80YSFX"
 			(at 143.51 210.82 0)
 			(effects
 				(font
@@ -14608,7 +14831,16 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "1727-1857-1-ND"
+		(property "Supplier PN" "1727-PSMN3R3-80YSFXCT-ND"
+			(at 143.51 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" ""
 			(at 143.51 210.82 0)
 			(effects
 				(font
@@ -14659,7 +14891,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PSMN1R4-40YLDX"
+		(property "Value" "PSMN3R3-80YSFX"
 			(at 194.564 227.33 0)
 			(effects
 				(font
@@ -14679,7 +14911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PSMN1R4-40YLD.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PSMN3R3-80YSF.pdf"
 			(at 194.818 232.41 0)
 			(effects
 				(font
@@ -14689,7 +14921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "240A, 40V Vds, N-Channel MOSFET, 1.4mOhm Ron, LFPAK56"
+		(property "Description" "N-Channel 80 V 160A (Tc) 300W (Tc) Surface Mount LFPAK56, Power-SO8"
 			(at 191.262 211.836 0)
 			(effects
 				(font
@@ -14707,7 +14939,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" "PSMN1R4-40YLDX"
+		(property "MFPN" "PSMN3R3-80YSFX"
 			(at 189.23 226.06 0)
 			(effects
 				(font
@@ -14725,7 +14957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "1727-1857-1-ND"
+		(property "Supplier PN" "1727-PSMN3R3-80YSFXCT-ND"
 			(at 189.23 226.06 0)
 			(effects
 				(font
@@ -14878,7 +15110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 200.66 144.78 0)
 			(effects
 				(font
@@ -14887,7 +15119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPR0402100K"
+		(property "Supplier PN" "311-100KLRCT-ND"
 			(at 200.66 144.78 0)
 			(effects
 				(font
@@ -14896,7 +15128,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "YAGEO"
 			(at 200.66 144.78 0)
 			(effects
 				(font
@@ -14905,7 +15137,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "RC0402FR-07100KL"
 			(at 200.66 144.78 0)
 			(effects
 				(font
@@ -15050,7 +15282,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Murata Electronics"
 			(at 229.87 95.25 0)
 			(effects
 				(font
@@ -15059,7 +15291,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "GRM21BR61H106KE43L"
 			(at 229.87 95.25 0)
 			(effects
 				(font
@@ -15068,7 +15300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 229.87 95.25 0)
 			(effects
 				(font
@@ -15077,7 +15309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPC0805106-35"
+		(property "Supplier PN" "490-18663-1-ND"
 			(at 229.87 95.25 0)
 			(effects
 				(font
@@ -15341,7 +15573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 226.06 226.06 0)
 			(effects
 				(font
@@ -15350,8 +15582,26 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPR040220R"
+		(property "Supplier PN" "311-20LRCT-ND"
 			(at 226.06 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "YAGEO"
+			(at 226.06 226.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFPN" "RC0402FR-0720RL"
+			(at 226.06 226.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15429,7 +15679,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Murata Electronics"
 			(at 162.56 95.25 0)
 			(effects
 				(font
@@ -15438,7 +15688,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "GCM155R71H104KE02D"
 			(at 162.56 95.25 0)
 			(effects
 				(font
@@ -15447,7 +15697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 162.56 95.25 0)
 			(effects
 				(font
@@ -15456,7 +15706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPC0402104-16"
+		(property "Supplier PN" "490-10672-1-ND"
 			(at 162.56 95.25 0)
 			(effects
 				(font
@@ -15680,7 +15930,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 74.93 251.46 270)
+		(at 77.47 251.46 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -15688,7 +15938,7 @@
 		(dnp no)
 		(uuid "9d6037ef-7486-4a40-9338-72f2505023f8")
 		(property "Reference" "TP12"
-			(at 73.406 253.746 90)
+			(at 75.946 253.746 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15697,7 +15947,7 @@
 			)
 		)
 		(property "Value" "VOLTSENSE"
-			(at 73.406 256.286 90)
+			(at 75.946 256.286 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15706,7 +15956,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 74.93 256.54 0)
+			(at 77.47 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15715,7 +15965,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 256.54 0)
+			(at 77.47 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15724,7 +15974,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 74.93 251.46 0)
+			(at 77.47 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15866,7 +16116,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Rubycon"
 			(at 210.82 36.83 0)
 			(effects
 				(font
@@ -15875,7 +16125,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "35PX470MEFC10X12.5"
 			(at 210.82 36.83 0)
 			(effects
 				(font
@@ -15884,7 +16134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "DigiKey"
 			(at 210.82 36.83 0)
 			(effects
 				(font
@@ -15893,7 +16143,16 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" ""
+		(property "Supplier PN" "1189-1280-ND"
+			(at 210.82 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" ""
 			(at 210.82 36.83 0)
 			(effects
 				(font
@@ -16104,7 +16363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 340.36 102.87 0)
 			(effects
 				(font
@@ -16113,7 +16372,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPR0402100R"
+		(property "Supplier PN" "311-100LRCT-ND"
+			(at 340.36 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "YAGEO"
+			(at 340.36 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFPN" "RC0402FR-07100RL"
 			(at 340.36 102.87 0)
 			(effects
 				(font
@@ -16423,7 +16700,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k 0.1%"
 			(at 64.77 257.8099 0)
 			(effects
 				(font
@@ -16459,7 +16736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 62.23 256.54 0)
 			(effects
 				(font
@@ -16468,7 +16745,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPR040210K"
+		(property "Supplier PN" "13-RC0402BR-0710KLCT-ND"
+			(at 62.23 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "YAGEO"
+			(at 62.23 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFPN" "RC0402BR-0710KL"
 			(at 62.23 256.54 0)
 			(effects
 				(font
@@ -16665,7 +16960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 44.45 256.54 0)
 			(effects
 				(font
@@ -16674,7 +16969,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPR04022K2"
+		(property "Supplier PN" "311-2.20KLRCT-ND"
+			(at 44.45 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "YAGEO"
+			(at 44.45 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFPN" "RC0402FR-072K2L"
 			(at 44.45 256.54 0)
 			(effects
 				(font
@@ -17180,7 +17493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 180.34 210.82 0)
 			(effects
 				(font
@@ -17189,8 +17502,26 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPR040220R"
+		(property "Supplier PN" "311-20LRCT-ND"
 			(at 180.34 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "YAGEO"
+			(at 180.34 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFPN" "RC0402FR-0720RL"
+			(at 180.34 210.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17267,7 +17598,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Murata Electronics"
 			(at 29.21 149.86 0)
 			(effects
 				(font
@@ -17276,7 +17607,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "GCM155R71H104KE02D"
 			(at 29.21 149.86 0)
 			(effects
 				(font
@@ -17285,7 +17616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 29.21 149.86 0)
 			(effects
 				(font
@@ -17294,7 +17625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPC0402104"
+		(property "Supplier PN" "490-10672-1-ND"
 			(at 29.21 149.86 0)
 			(effects
 				(font
@@ -17402,7 +17733,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MCXA1xxVFM"
+		(property "Value" "MCXA133VFM"
 			(at 142.748 151.892 0)
 			(effects
 				(font
@@ -17429,7 +17760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MCXA153, A152, A143, A142, A133, A132"
+		(property "Description" "MCXA133"
 			(at 166.624 155.702 0)
 			(effects
 				(font
@@ -17466,6 +17797,15 @@
 			)
 		)
 		(property "Supplier PN" "568-MCXA133VFM-ND"
+			(at 139.7 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" ""
 			(at 139.7 127 0)
 			(effects
 				(font
@@ -17601,7 +17941,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF 16V"
+		(property "Value" "1uF 10V"
 			(at 151.13 96.5199 0)
 			(effects
 				(font
@@ -17637,7 +17977,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Murata Electronics"
 			(at 147.32 95.25 0)
 			(effects
 				(font
@@ -17646,7 +17986,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "GRM155Z71A105KE01D"
 			(at 147.32 95.25 0)
 			(effects
 				(font
@@ -17655,7 +17995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 147.32 95.25 0)
 			(effects
 				(font
@@ -17664,7 +18004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPC0402105-16"
+		(property "Supplier PN" "490-GRM155Z71A105KE01DCT-ND"
 			(at 147.32 95.25 0)
 			(effects
 				(font
@@ -17809,7 +18149,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Murata Electronics"
 			(at 127 36.83 0)
 			(effects
 				(font
@@ -17818,7 +18158,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "GRM21BR61H106KE43L"
 			(at 127 36.83 0)
 			(effects
 				(font
@@ -17827,7 +18167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 127 36.83 0)
 			(effects
 				(font
@@ -17836,7 +18176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPC0805106-35"
+		(property "Supplier PN" "490-18663-1-ND"
 			(at 127 36.83 0)
 			(effects
 				(font
@@ -18242,7 +18582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 106.68 134.62 0)
 			(effects
 				(font
@@ -18251,7 +18591,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPR040210K"
+		(property "Supplier PN" "311-10.0KLRCT-ND"
+			(at 106.68 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "YAGEO"
+			(at 106.68 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFPN" "RC0402FR-0710KL"
 			(at 106.68 134.62 0)
 			(effects
 				(font
@@ -18527,7 +18885,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Murata Electronics"
 			(at 93.98 36.83 0)
 			(effects
 				(font
@@ -18536,7 +18894,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "GRM21BR61H106KE43L"
 			(at 93.98 36.83 0)
 			(effects
 				(font
@@ -18545,7 +18903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 93.98 36.83 0)
 			(effects
 				(font
@@ -18554,7 +18912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPC0805106-35"
+		(property "Supplier PN" "490-18663-1-ND"
 			(at 93.98 36.83 0)
 			(effects
 				(font
@@ -18699,7 +19057,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Murata Electronics"
 			(at 176.53 36.83 0)
 			(effects
 				(font
@@ -18708,7 +19066,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "GRM21BR61H106KE43L"
 			(at 176.53 36.83 0)
 			(effects
 				(font
@@ -18717,7 +19075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 176.53 36.83 0)
 			(effects
 				(font
@@ -18726,7 +19084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPC0805106-35"
+		(property "Supplier PN" "490-18663-1-ND"
 			(at 176.53 36.83 0)
 			(effects
 				(font
@@ -18803,7 +19161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 389.89 218.44 0)
 			(effects
 				(font
@@ -18812,8 +19170,26 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPR040210K"
+		(property "Supplier PN" "311-10.0KLRCT-ND"
 			(at 389.89 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "YAGEO"
+			(at 389.89 218.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFPN" "RC0402FR-0710KL"
+			(at 389.89 218.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19023,7 +19399,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Murata Electronics"
 			(at 110.49 36.83 0)
 			(effects
 				(font
@@ -19032,7 +19408,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "GRM21BR61H106KE43L"
 			(at 110.49 36.83 0)
 			(effects
 				(font
@@ -19041,7 +19417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 110.49 36.83 0)
 			(effects
 				(font
@@ -19050,7 +19426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPC0805106-35"
+		(property "Supplier PN" "490-18663-1-ND"
 			(at 110.49 36.83 0)
 			(effects
 				(font
@@ -19192,7 +19568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 226.06 210.82 0)
 			(effects
 				(font
@@ -19201,8 +19577,26 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPR040220R"
+		(property "Supplier PN" "311-20LRCT-ND"
 			(at 226.06 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "YAGEO"
+			(at 226.06 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFPN" "RC0402FR-0720RL"
+			(at 226.06 210.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19467,7 +19861,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Murata Electronics"
 			(at 180.34 95.25 0)
 			(effects
 				(font
@@ -19476,7 +19870,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "GCM155R71H104KE02D"
 			(at 180.34 95.25 0)
 			(effects
 				(font
@@ -19485,7 +19879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 180.34 95.25 0)
 			(effects
 				(font
@@ -19494,7 +19888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPC0402104-16"
+		(property "Supplier PN" "490-10672-1-ND"
 			(at 180.34 95.25 0)
 			(effects
 				(font
@@ -19573,7 +19967,7 @@
 				(hide yes)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Murata Electronics"
 			(at 245.11 95.25 0)
 			(effects
 				(font
@@ -19582,7 +19976,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "GCM155R71H104KE02D"
 			(at 245.11 95.25 0)
 			(effects
 				(font
@@ -19591,7 +19985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 245.11 95.25 0)
 			(effects
 				(font
@@ -19600,7 +19994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPC0402104-16"
+		(property "Supplier PN" "490-10672-1-ND"
 			(at 245.11 95.25 0)
 			(effects
 				(font
@@ -19679,7 +20073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 382.27 224.79 0)
 			(effects
 				(font
@@ -19688,7 +20082,25 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier PN" "GPR04021K"
+		(property "Supplier PN" "311-1.00KLRCT-ND"
+			(at 382.27 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "YAGEO"
+			(at 382.27 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFPN" "RC0402FR-071KL"
 			(at 382.27 224.79 0)
 			(effects
 				(font

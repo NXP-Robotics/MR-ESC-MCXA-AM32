@@ -230,7 +230,7 @@
 				)
 			)
 		)
-		(property "Value" "MCXA1xxVFM"
+		(property "Value" "MCXA133VFM"
 			(at 0 3.83 90)
 			(layer "F.Fab")
 			(uuid "5e525714-03c2-40e9-a714-7c2cfe95c6d2")
@@ -254,7 +254,7 @@
 				)
 			)
 		)
-		(property "Description" "MCXA153, A152, A143, A142, A133, A132"
+		(property "Description" "MCXA133"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -319,9 +319,22 @@
 				)
 			)
 		)
+		(property "DigiKey" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69ed9a80-3969-4668-a3f6-62010a27315a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/cb910769-3290-4818-b648-021af3a44eaf")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.61 2.61)
@@ -941,7 +954,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF 16V"
+		(property "Value" "1uF 10V"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "f3d649ff-b1ed-4448-91fd-35754173b9b5")
@@ -978,7 +991,7 @@
 				)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Murata Electronics"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -991,7 +1004,7 @@
 				)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "GRM155Z71A105KE01D"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1004,7 +1017,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1017,7 +1030,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "GPC0402105-16"
+		(property "Supplier PN" "490-GRM155Z71A105KE01DCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1033,7 +1046,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/2a55beb5-e482-48f8-ab45-d7d8eff24079")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 0.36)
@@ -1232,7 +1245,7 @@
 				)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Murata Electronics"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1245,7 +1258,7 @@
 				)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "GCM155R71H104KE02D"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1258,7 +1271,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1271,7 +1284,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "GPC0402104"
+		(property "Supplier PN" "490-10672-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1287,7 +1300,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c6c4c13f-fd69-429c-86b2-9e7017fb7b8d")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -1486,7 +1499,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1499,7 +1512,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "GPR040220R"
+		(property "Supplier PN" "311-20LRCT-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1512,10 +1525,36 @@
 				)
 			)
 		)
+		(property "MF" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b6a2c4e-447c-4238-ad3c-477fa71d1007")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFPN" "RC0402FR-0720RL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c460a65-04f9-44c7-953b-9fef49f643b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f022db21-aca0-4820-9e19-46074250d3d1")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -1714,7 +1753,7 @@
 				)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Murata Electronics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1727,7 +1766,7 @@
 				)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "GCM155R71H104KE02D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1740,7 +1779,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1753,7 +1792,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "GPC0402104-16"
+		(property "Supplier PN" "490-10672-1-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1769,7 +1808,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/35b93dab-a1c2-495b-9b95-4835581e2a2b")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 0.36)
@@ -1983,7 +2022,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/3597d1b2-c898-4b76-8851-815f886a59dd")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -2084,7 +2123,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2097,7 +2136,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "GPR04021K"
+		(property "Supplier PN" "311-1.00KLRCT-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2110,10 +2149,36 @@
 				)
 			)
 		)
+		(property "MF" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e85b14f6-7c62-4a21-8b8d-3717693f4890")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFPN" "RC0402FR-071KL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "519de3d7-90ef-46aa-8ffe-671ee28a3839")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/458c571b-f2e3-4752-a7a9-7a5bc248a151")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -2315,7 +2380,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/dbb835a4-b25d-4c6b-b490-bfe9e24e7005")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -2416,7 +2481,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2429,7 +2494,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "GPR0402100R"
+		(property "Supplier PN" "311-100LRCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2442,10 +2507,36 @@
 				)
 			)
 		)
+		(property "MF" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a735c33-8408-4d17-876f-9d1a68ed80e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFPN" "RC0402FR-07100RL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ef6f175-69e8-4645-b44f-d0c329942400")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a1e72407-aef5-47f9-a26d-7f2312a1ed6a")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -2642,7 +2733,7 @@
 				)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Taiyo Yuden"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2655,7 +2746,7 @@
 				)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "UMK107AB7105KA-T"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2668,7 +2759,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2681,7 +2772,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "GPC0603105"
+		(property "Supplier PN" "587-3247-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2697,7 +2788,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/1d354f78-9300-469e-ab92-51549a701d34")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -2963,7 +3054,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/f75a6378-d03b-4671-92d9-326f4ce71a44")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 4.11 1.11)
@@ -3522,7 +3613,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3535,7 +3626,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "GPR040220R"
+		(property "Supplier PN" "311-20LRCT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3548,10 +3639,36 @@
 				)
 			)
 		)
+		(property "MF" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5378a250-15f8-4946-ba59-a4bd9457028c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFPN" "RC0402FR-0720RL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f9fffae3-2673-458c-8295-9c2c494b25b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/6169ed08-682e-45eb-b9de-0e35b69a05f3")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -3713,7 +3830,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10k 0.1%"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "73269b95-99f1-4377-9b26-3653d2fef65b")
@@ -3750,7 +3867,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3763,7 +3880,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "GPR040210K"
+		(property "Supplier PN" "13-RC0402BR-0710KLCT-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3776,10 +3893,36 @@
 				)
 			)
 		)
+		(property "MF" "YAGEO"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df0163b3-5a12-4e5d-b067-6c4c439b69de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFPN" "RC0402BR-0710KL"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c93ed508-aa7e-4933-ab07-64da781c61a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/adf1efe1-949f-4e6e-8793-1eff45619b06")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -3993,7 +4136,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/a07cb13e-9507-4ada-96b3-a8c78471bd94")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -4057,7 +4200,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF 16V"
+		(property "Value" "1uF 10V"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "1ee11a14-00c1-4fff-b389-54f30c5cdc50")
@@ -4094,7 +4237,7 @@
 				)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Murata Electronics"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4107,7 +4250,7 @@
 				)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "GRM155Z71A105KE01D"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4120,7 +4263,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4133,7 +4276,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "GPC0402105-16"
+		(property "Supplier PN" "490-GRM155Z71A105KE01DCT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4149,7 +4292,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/cc921a2f-b5da-4a98-bf43-4b1fb3d6d7b5")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -4403,7 +4546,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a6542602-3a94-4409-bb8e-1d687f914f6f")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.63 -1.27)
@@ -4578,7 +4721,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/9d6037ef-7486-4a40-9338-72f2505023f8")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -4679,7 +4822,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4692,7 +4835,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "GPR04022K2"
+		(property "Supplier PN" "311-2.20KLRCT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4705,10 +4848,36 @@
 				)
 			)
 		)
+		(property "MF" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8234ce22-8144-4fb2-be3b-2d40aa7c010b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFPN" "RC0402FR-072K2L"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ac01913-b010-46ec-938e-0a98857654c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/afc6e2b0-8474-4c64-8bad-23c58327848f")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -4962,7 +5131,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/4e14a150-e644-4c2e-b167-f36f4e3d6ef6")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.63 -1.27)
@@ -5122,7 +5291,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5135,7 +5304,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "GPR04021K"
+		(property "Supplier PN" "311-1.00KLRCT-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5148,10 +5317,36 @@
 				)
 			)
 		)
+		(property "MF" "YAGEO"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12aeb38b-ebb6-47e2-ac3b-499f733b9044")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFPN" "RC0402FR-071KL"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a1ed1dde-e96d-415f-9799-66e191c39e3a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/707b5dc3-3df1-42ac-b99a-ba64daaec8f7")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -5404,7 +5599,7 @@
 		)
 		(path "/1b018609-3116-477b-b02f-ea328adc74fa")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -1.56)
@@ -5732,7 +5927,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/45b7089b-c0db-4bf4-a716-02b5e35922d3")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 1.56)
@@ -6007,7 +6202,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/1a3c0a74-ea78-4869-825b-5d800f18c588")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -6189,7 +6384,7 @@
 		(property ki_fp_filters "D*SOD?523*")
 		(path "/4e4c057a-33e0-4104-b42e-57b3d6185e26")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.26 -0.6)
@@ -6463,7 +6658,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/313951b2-fb92-45f7-a496-97adaead2b06")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -6564,7 +6759,7 @@
 				)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Murata Electronics"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6577,7 +6772,7 @@
 				)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "GCM155R71H104KE02D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6590,7 +6785,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6603,7 +6798,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "GPC0402104-16"
+		(property "Supplier PN" "490-10672-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6619,7 +6814,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/912f1f67-a167-47bd-a099-16d4bbea08df")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -6833,7 +7028,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/0daa075d-3c54-4e7b-8a7d-80fd252423bd")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -7015,7 +7210,7 @@
 		(property ki_fp_filters "D*SOD?523*")
 		(path "/8e114b3c-2b78-44fe-a209-36953617efc8")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.26 -0.6)
@@ -7341,7 +7536,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/b5001575-ab29-4bba-98b6-36573337dbce")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.8 1.55)
@@ -7489,7 +7684,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/d3683079-21ad-48a1-bd79-408aff48a542")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -7590,7 +7785,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7603,7 +7798,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "GPR040210K"
+		(property "Supplier PN" "311-10.0KLRCT-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7616,10 +7811,36 @@
 				)
 			)
 		)
+		(property "MF" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "70ee384a-5b59-49b4-8c8e-9eb1162a0d60")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFPN" "RC0402FR-0710KL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99637d10-9cce-4376-a350-827897416ee9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/18cd0135-41ff-404f-898c-1da435c9a9eb")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -7873,7 +8094,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/16742f4a-4825-4499-8d29-79a8441a9bc5")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.63 -1.27)
@@ -7996,7 +8217,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100k 0.1%"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "4ed95e5b-de5b-431f-a149-8ba3088921f3")
@@ -8033,7 +8254,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8046,7 +8267,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "GPR0402100K"
+		(property "Supplier PN" "13-RC0402BR-07100KLCT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8059,10 +8280,36 @@
 				)
 			)
 		)
+		(property "MF" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ffab1f7-b73f-43e5-8e9f-0784e8f673a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFPN" "RC0402BR-07100KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "713a194d-9e1b-40b1-8c4a-0925e03536cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/39c1efcf-8b90-4db3-97e5-8c8c1bad64f4")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -8261,7 +8508,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8274,7 +8521,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "GPR040220R"
+		(property "Supplier PN" "311-20LRCT-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8287,10 +8534,36 @@
 				)
 			)
 		)
+		(property "MF" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed3a7ce9-4ad4-4476-995e-7793bef6810b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFPN" "RC0402FR-0720RL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25778969-ab08-474f-b5c4-719dfb032078")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/90823d77-4cfa-42bf-869f-fa636d57c171")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -8489,7 +8762,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8502,7 +8775,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "GPR040210K"
+		(property "Supplier PN" "311-10.0KLRCT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8515,10 +8788,36 @@
 				)
 			)
 		)
+		(property "MF" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0c444267-bd97-471d-b679-d34706095fcb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFPN" "RC0402FR-0710KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db1dec6a-2738-4ee5-aaaf-ac3517401b47")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/5e836eec-9f42-47a2-b67d-c6009d12a262")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -8717,7 +9016,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8730,7 +9029,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "GPR040210K"
+		(property "Supplier PN" "311-10.0KLRCT-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8743,10 +9042,36 @@
 				)
 			)
 		)
+		(property "MF" "YAGEO"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f6e9aeb-ccf7-4580-8124-1e5b3aaef7eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFPN" "RC0402FR-0710KL"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1fa71564-86a3-466d-b8c7-44b9a09c2338")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/122581de-62aa-408a-873f-65ff27fa6d9b")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -8945,7 +9270,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8958,7 +9283,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "GPR040220R"
+		(property "Supplier PN" "311-20LRCT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8971,10 +9296,36 @@
 				)
 			)
 		)
+		(property "MF" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff280433-6de6-4450-8bad-951d8beb0a9d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFPN" "RC0402FR-0720RL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "faef8a80-f58f-433c-906c-89472cd4df4d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/48d784e7-eec8-4564-a220-c977c7042fdb")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -9227,7 +9578,7 @@
 		)
 		(path "/66cabfb3-2c88-4e22-91e5-45c04423f169")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.4 1)
@@ -9383,7 +9734,7 @@
 				)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Rubycon"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9396,7 +9747,7 @@
 				)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "35PX470MEFC10X12.5"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9409,7 +9760,7 @@
 				)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "DigiKey"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9422,7 +9773,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" ""
+		(property "Supplier PN" "1189-1280-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9435,10 +9786,23 @@
 				)
 			)
 		)
+		(property "DigiKey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "83ecc5d0-445e-4f01-8974-ea2caa365998")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "CP_*")
 		(path "/9ebbe55a-f380-47c8-a901-51d60f783789")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(clearance 0.3)
 		(attr through_hole exclude_from_pos_files allow_missing_courtyard dnp)
 		(fp_line
@@ -9602,7 +9966,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9615,7 +9979,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "GPR040210K"
+		(property "Supplier PN" "311-10.0KLRCT-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9628,10 +9992,36 @@
 				)
 			)
 		)
+		(property "MF" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da7c5c36-8d39-47ee-b7ae-76bce85bd761")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFPN" "RC0402FR-0710KL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc35605f-f9f5-4593-9338-0d40e866ded8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/d97c8472-db15-4143-80f3-b0c1c3b061c9")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -9830,7 +10220,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9843,7 +10233,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "GPR040210K"
+		(property "Supplier PN" "311-10.0KLRCT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9856,10 +10246,36 @@
 				)
 			)
 		)
+		(property "MF" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67561e6c-632f-45f4-ba4f-3af55cc50d37")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFPN" "RC0402FR-0710KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ddf24a69-80ac-4b2f-8861-cd29ebad35ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/07bcf365-005b-4c58-aef0-348d6b17e396")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -10073,7 +10489,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/a98caa63-fcc0-4b18-b78b-df8e03b017ac")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -10174,7 +10590,7 @@
 				)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Murata Electronics"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10187,7 +10603,7 @@
 				)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "GCM155R71H104KE02D"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10200,7 +10616,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10213,7 +10629,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "GPC0402104-16"
+		(property "Supplier PN" "490-10672-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10229,7 +10645,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/4e23d46c-c396-483c-8abb-8382fbe62929")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -10428,7 +10844,7 @@
 				)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Murata Electronics"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10441,7 +10857,7 @@
 				)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "GCM155R71H104KE02D"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10454,7 +10870,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10467,7 +10883,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "GPC0402104-16"
+		(property "Supplier PN" "490-10672-1-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10483,7 +10899,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/fbb4f214-5cb1-4f22-a87c-0ce44cd8abbd")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -10763,7 +11179,7 @@
 		(property ki_fp_filters "D*SOD?523*")
 		(path "/2cf0e024-d6e7-4a8c-88a5-fe686c25a0d4")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.26 -0.6)
@@ -11037,7 +11453,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/2da7bae6-d956-4386-a8bb-2bca750d214d")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -11193,7 +11609,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/16887178-328e-469b-92b7-2b212b54d2d1")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.63 -1.27)
@@ -11408,7 +11824,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/32b32e95-ad5a-44e0-a1f3-8b411a2f460b")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.63 -1.27)
@@ -11568,7 +11984,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11581,7 +11997,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "GPR040220R"
+		(property "Supplier PN" "311-20LRCT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11594,10 +12010,36 @@
 				)
 			)
 		)
+		(property "MF" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "719b366d-e10c-4229-a233-4cdc8a1b0a00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFPN" "RC0402FR-0720RL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e8a0fc62-d91a-4dc7-82fd-e488118d3ad9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3175ba6d-ac10-4277-8813-2ef41c70cc54")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -11850,7 +12292,7 @@
 		)
 		(path "/1125c3fe-0814-4f4a-b3db-c5b0beb19e62")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -1.56)
@@ -12123,7 +12565,7 @@
 				)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Murata Electronics"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12136,7 +12578,7 @@
 				)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "GRM21BR61H106KE43L"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12149,7 +12591,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12162,7 +12604,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "GPC0805106-35"
+		(property "Supplier PN" "490-18663-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12178,7 +12620,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8c518a4f-d07b-4fb4-b9a6-3ac1b7aff432")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -12377,7 +12819,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12390,7 +12832,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "GPR040210K"
+		(property "Supplier PN" "311-10.0KLRCT-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12403,10 +12845,36 @@
 				)
 			)
 		)
+		(property "MF" "YAGEO"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "475ee7f4-f93b-4ac2-ab46-0ac334e5a6a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFPN" "RC0402FR-0710KL"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85a9d9d5-1ec1-4847-b456-1b389e036604")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e68e542b-2867-4709-89c0-13a1ccf61647")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 0.38)
@@ -12605,7 +13073,7 @@
 				)
 			)
 		)
-		(property "MF" "Keystone Electronics"
+		(property "MF" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12618,7 +13086,7 @@
 				)
 			)
 		)
-		(property "MFPN" "5002"
+		(property "MFPN" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12631,7 +13099,7 @@
 				)
 			)
 		)
-		(property "Supplier" "DigiKey"
+		(property "Supplier" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12644,7 +13112,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "36-5002-ND"
+		(property "Supplier PN" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12660,7 +13128,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/04a0d8cb-1779-4757-ad45-5e2af8748f8f")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(zone_connect 2)
 		(attr exclude_from_pos_files dnp)
 		(fp_circle
@@ -12818,7 +13286,7 @@
 		)
 		(path "/21692146-3b4d-4e7c-b021-c7fbd022f5cd")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.11 -1.635)
@@ -13395,7 +13863,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13408,7 +13876,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "GPR04021K"
+		(property "Supplier PN" "311-1.00KLRCT-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13421,10 +13889,36 @@
 				)
 			)
 		)
+		(property "MF" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3b6993c6-033d-41da-ad1b-f7ae0ab7327e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFPN" "RC0402FR-071KL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06060e62-dcf3-4675-afe5-f85f6179e706")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/4445e7d3-a4b5-4730-b7e3-59ed6a194ce6")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -13678,7 +14172,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a86bec02-8546-4092-a59c-bbaefb9b3801")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.8 1.55)
@@ -13821,7 +14315,7 @@
 				)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Taiyo Yuden"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13834,7 +14328,7 @@
 				)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "UMK107AB7105KA-T"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13847,7 +14341,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13860,7 +14354,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "GPC0603105"
+		(property "Supplier PN" "587-3247-1-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13876,7 +14370,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/344da8ec-e848-4c25-80d6-85d161247cef")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -14075,7 +14569,7 @@
 				)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Murata Electronics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14088,7 +14582,7 @@
 				)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "GCM155R71H104KE02D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14101,7 +14595,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14114,7 +14608,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "GPC0402104-16"
+		(property "Supplier PN" "490-10672-1-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14130,7 +14624,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/fbb758e0-9cea-423d-998a-2af98c19b8c5")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 0.36)
@@ -14384,7 +14878,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/18e55ec0-f722-4766-84d4-4106e9872ec2")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center -1.09 0)
@@ -14599,7 +15093,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/4ba53dfa-88a6-49d0-93f6-1270aadb550d")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -14700,7 +15194,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14713,7 +15207,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "GPR040210K"
+		(property "Supplier PN" "311-10.0KLRCT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14726,10 +15220,36 @@
 				)
 			)
 		)
+		(property "MF" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e3e5ba55-e4b6-4737-966a-d44f6fda35af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFPN" "RC0402FR-0710KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8bbf8ec-f469-43b4-a296-39f69aedb459")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/3a044e4b-a673-4727-86b2-789d8005fcad")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -14982,7 +15502,7 @@
 		)
 		(path "/afa7aecf-8aa2-4298-b092-3bbaa7df733a")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.95 -0.25)
@@ -15160,7 +15680,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15173,7 +15693,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "GPR040220R"
+		(property "Supplier PN" "311-20LRCT-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15186,10 +15706,36 @@
 				)
 			)
 		)
+		(property "MF" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b807032-c918-4acf-b4b4-7cf613a15ae5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFPN" "RC0402FR-0720RL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "042e9135-5bde-44fd-9f36-92314b5e9c79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c6af094d-2ce7-43db-8659-445aaa05efe2")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -15351,7 +15897,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF 16V"
+		(property "Value" "1uF 10V"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "07845e04-e064-4548-b203-9e3ae4d755d5")
@@ -15388,7 +15934,7 @@
 				)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Murata Electronics"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15401,7 +15947,7 @@
 				)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "GRM155Z71A105KE01D"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15414,7 +15960,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15427,7 +15973,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "GPC0402105-16"
+		(property "Supplier PN" "490-GRM155Z71A105KE01DCT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15443,7 +15989,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/29c3de4a-8f8a-46a5-b546-02cfbaba330e")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 0.36)
@@ -15641,7 +16187,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15654,7 +16200,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "GPR0402100K"
+		(property "Supplier PN" "311-100KLRCT-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15667,7 +16213,7 @@
 				)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15680,7 +16226,7 @@
 				)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "RC0402FR-07100KL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15696,7 +16242,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/827a718d-0369-4c44-97db-579c8f92f77e")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -15895,7 +16441,7 @@
 				)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Murata Electronics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15908,7 +16454,7 @@
 				)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "GCM155R71H104KE02D"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15921,7 +16467,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15934,7 +16480,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "GPC0402104"
+		(property "Supplier PN" "490-10672-1-ND"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15950,7 +16496,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/127f2395-2e86-4ca4-97be-b75be7fadf07")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 0.36)
@@ -16204,7 +16750,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/41e9f368-fc4f-4fed-b2f5-bbb2d66de2d4")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.63 -1.27)
@@ -16364,7 +16910,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16377,7 +16923,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "GPR04021K"
+		(property "Supplier PN" "311-1.00KLRCT-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16390,10 +16936,36 @@
 				)
 			)
 		)
+		(property "MF" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61b66daf-7c1b-4b19-a5a9-5abecf03d9ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFPN" "RC0402FR-071KL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54f94590-00c6-4c19-99fb-b0af38db8745")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/ff9b70da-20c9-4171-a6e3-c7631c7a49e2")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -16592,7 +17164,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16605,7 +17177,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "GPR040210K"
+		(property "Supplier PN" "311-10.0KLRCT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16618,10 +17190,36 @@
 				)
 			)
 		)
+		(property "MF" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1cea86c-dfa9-4b5e-a3fc-ceae77f6c758")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFPN" "RC0402FR-0710KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20b02d21-bf6a-44fd-8dfa-3d03e5a96f18")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/6967afef-5859-4151-a4dd-f25a47545fb6")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.153641 -0.38)
@@ -16819,7 +17417,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16832,7 +17430,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "GPR04020R"
+		(property "Supplier PN" "311-0.0LRCT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16845,7 +17443,7 @@
 				)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "YAGEO"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16858,7 +17456,7 @@
 				)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "RC0402FR-070RL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16874,7 +17472,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/2db30b8d-fb09-4d3e-8ea3-b1dcc05ee956")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -0.153641 0.38)
@@ -17128,7 +17726,7 @@
 		(property ki_fp_filters "R_*Shunt*")
 		(path "/3b6ca26b-674c-4b7f-b7f2-ba2e16162883")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -0.45 -0.85)
@@ -17269,7 +17867,7 @@
 				)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Taiyo Yuden"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17282,7 +17880,7 @@
 				)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "UMK107AB7105KA-T"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17295,7 +17893,7 @@
 				)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17308,7 +17906,7 @@
 				)
 			)
 		)
-		(property "Supplier PN" "GPC0603105"
+		(property "Supplier PN" "587-3247-1-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17324,7 +17922,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/649a2242-edf1-42f3-b4ff-53fda581c0eb")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -17578,7 +18176,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/1cef2bd1-f4b6-44c7-8dca-1f8d252b38c7")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.63 -1.27)
@@ -17793,7 +18391,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/2cb83850-08d2-4ed8-904c-d610ddbe1416")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.8 1.55)
@@ -17954,7 +18552,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/48ac4ce9-cb3b-4d05-bdc9-9fb48fd58593")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -18019,7 +18617,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "PSMN1R4-40YLDX"
+		(property "Value" "PSMN3R3-80YSFX"
 			(at -0.245 -3.52 0)
 			(layer "B.Fab")
 			(uuid "213c0162-f36b-428a-bf2f-8c41b51f21f0")
@@ -18031,7 +18629,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PSMN1R4-40YLD.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PSMN3R3-80YSF.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18045,7 +18643,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "240A, 40V Vds, N-Channel MOSFET, 1.4mOhm Ron, LFPAK56"
+		(property "Description" "N-Channel 80 V 160A (Tc) 300W (Tc) Surface Mount LFPAK56, Power-SO8"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18073,7 +18671,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MFPN" "PSMN1R4-40YLDX"
+		(property "MFPN" "PSMN3R3-80YSFX"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18101,7 +18699,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "1727-1857-1-ND"
+		(property "Supplier PN" "1727-PSMN3R3-80YSFXCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18115,10 +18713,24 @@
 				(justify mirror)
 			)
 		)
+		(property "DigiKey" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f4aacea6-dc03-48ad-b000-d5b0932039d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "LFPAK56*")
 		(path "/79d7d0a6-fd97-4ca3-84c2-b92361c0215a")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(solder_paste_margin -0.05)
 		(attr smd)
 		(fp_line
@@ -18582,7 +19194,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "PSMN1R4-40YLDX"
+		(property "Value" "PSMN3R3-80YSFX"
 			(at -0.245 -3.52 90)
 			(layer "B.Fab")
 			(uuid "d3616301-0d8c-4fb6-95b5-69ce7d897add")
@@ -18594,7 +19206,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PSMN1R4-40YLD.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PSMN3R3-80YSF.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18608,7 +19220,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "240A, 40V Vds, N-Channel MOSFET, 1.4mOhm Ron, LFPAK56"
+		(property "Description" "N-Channel 80 V 160A (Tc) 300W (Tc) Surface Mount LFPAK56, Power-SO8"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18636,7 +19248,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MFPN" "PSMN1R4-40YLDX"
+		(property "MFPN" "PSMN3R3-80YSFX"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18664,7 +19276,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "1727-1857-1-ND"
+		(property "Supplier PN" "1727-PSMN3R3-80YSFXCT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18681,7 +19293,7 @@
 		(property ki_fp_filters "LFPAK56*")
 		(path "/62537f16-43e7-4f21-8a34-8f9cc2f951da")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(solder_paste_margin -0.05)
 		(attr smd)
 		(fp_line
@@ -19185,7 +19797,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Murata Electronics"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19199,7 +19811,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "GRM21BR61H106KE43L"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19213,7 +19825,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19227,7 +19839,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "GPC0805106-35"
+		(property "Supplier PN" "490-18663-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19244,7 +19856,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ce936db8-5d95-404a-9c25-fbc846e4e8df")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -19448,7 +20060,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Murata Electronics"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19462,7 +20074,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19476,7 +20088,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19490,7 +20102,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "GPC0805106-35"
+		(property "Supplier PN" "490-18663-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19507,7 +20119,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/de843936-a96e-473a-b664-9c526647e06f")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -19711,7 +20323,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Murata Electronics"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19725,7 +20337,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19739,7 +20351,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19753,7 +20365,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "GPC0805106-35"
+		(property "Supplier PN" "490-18663-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19770,7 +20382,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/4e270d76-7fa2-4c7e-83e5-5a88d9e27f83")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -19974,7 +20586,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Murata Electronics"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19988,7 +20600,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -20002,7 +20614,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -20016,7 +20628,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "GPC0805106-35"
+		(property "Supplier PN" "490-18663-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -20033,7 +20645,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/3c9a0a3b-4371-4e13-aa4d-010060f55319")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -20240,7 +20852,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/4941bdd8-4831-49fb-a233-f9ba34c51d6c")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.2 -2.2)
@@ -20364,7 +20976,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "PSMN1R4-40YLDX"
+		(property "Value" "PSMN3R3-80YSFX"
 			(at -0.245 -3.52 0)
 			(layer "B.Fab")
 			(uuid "e898171c-baa2-483d-ba92-afa24b8d8bc6")
@@ -20376,7 +20988,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PSMN1R4-40YLD.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PSMN3R3-80YSF.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -20390,7 +21002,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "240A, 40V Vds, N-Channel MOSFET, 1.4mOhm Ron, LFPAK56"
+		(property "Description" "N-Channel 80 V 160A (Tc) 300W (Tc) Surface Mount LFPAK56, Power-SO8"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -20418,7 +21030,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MFPN" "PSMN1R4-40YLDX"
+		(property "MFPN" "PSMN3R3-80YSFX"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -20446,7 +21058,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "1727-1857-1-ND"
+		(property "Supplier PN" "1727-PSMN3R3-80YSFXCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -20463,7 +21075,7 @@
 		(property ki_fp_filters "LFPAK56*")
 		(path "/250fbf54-76c3-4077-9dda-dd6afb9fecdb")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(solder_paste_margin -0.05)
 		(attr smd)
 		(fp_line
@@ -20970,7 +21582,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/5f849165-f0f0-427c-97c7-fc8419fe7d0e")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.2 -2.2)
@@ -21094,7 +21706,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "PSMN1R4-40YLDX"
+		(property "Value" "PSMN3R3-80YSFX"
 			(at -0.245 -3.52 90)
 			(layer "B.Fab")
 			(uuid "6526b796-8fbd-4d27-a471-6a13a52228ed")
@@ -21106,7 +21718,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PSMN1R4-40YLD.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PSMN3R3-80YSF.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -21120,7 +21732,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "240A, 40V Vds, N-Channel MOSFET, 1.4mOhm Ron, LFPAK56"
+		(property "Description" "N-Channel 80 V 160A (Tc) 300W (Tc) Surface Mount LFPAK56, Power-SO8"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -21148,7 +21760,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MFPN" "PSMN1R4-40YLDX"
+		(property "MFPN" "PSMN3R3-80YSFX"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -21176,7 +21788,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "1727-1857-1-ND"
+		(property "Supplier PN" "1727-PSMN3R3-80YSFXCT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -21193,7 +21805,7 @@
 		(property ki_fp_filters "LFPAK56*")
 		(path "/21099313-651b-4512-b428-34da462e2f09")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(solder_paste_margin -0.05)
 		(attr smd)
 		(fp_line
@@ -21697,7 +22309,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Murata Electronics"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -21711,7 +22323,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -21725,7 +22337,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -21739,7 +22351,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "GPC0805106-35"
+		(property "Supplier PN" "490-18663-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -21756,7 +22368,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ef73c8bb-1c8c-41ea-a448-a3a9aa062ac0")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -21960,7 +22572,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Murata Electronics"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -21974,7 +22586,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -21988,7 +22600,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22002,7 +22614,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "GPC0805106-35"
+		(property "Supplier PN" "490-18663-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22019,7 +22631,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/df25ca81-b4fe-4802-9388-d6214eefc703")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -22223,7 +22835,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Murata Electronics"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22237,7 +22849,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "GRM21BR61H106KE43L"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22251,7 +22863,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22265,7 +22877,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "GPC0805106-35"
+		(property "Supplier PN" "490-18663-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22282,7 +22894,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/6ec7d059-fdff-4cd0-9252-516e45e73881")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -22446,7 +23058,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "PSMN1R4-40YLDX"
+		(property "Value" "PSMN3R3-80YSFX"
 			(at -0.245 -3.52 0)
 			(layer "B.Fab")
 			(uuid "3a1fd6c0-c161-4b09-9747-6342e23a05f8")
@@ -22458,7 +23070,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PSMN1R4-40YLD.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PSMN3R3-80YSF.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22472,7 +23084,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "240A, 40V Vds, N-Channel MOSFET, 1.4mOhm Ron, LFPAK56"
+		(property "Description" "N-Channel 80 V 160A (Tc) 300W (Tc) Surface Mount LFPAK56, Power-SO8"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22500,7 +23112,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MFPN" "PSMN1R4-40YLDX"
+		(property "MFPN" "PSMN3R3-80YSFX"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22528,7 +23140,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "1727-1857-1-ND"
+		(property "Supplier PN" "1727-PSMN3R3-80YSFXCT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22545,7 +23157,7 @@
 		(property ki_fp_filters "LFPAK56*")
 		(path "/2ef4adac-d7d6-48f9-95e3-42354c458fc7")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(solder_paste_margin -0.05)
 		(attr smd)
 		(fp_line
@@ -23049,7 +23661,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Murata Electronics"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23063,7 +23675,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "GRM21BR61H106KE43L"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23077,7 +23689,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23091,7 +23703,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "GPC0805106-35"
+		(property "Supplier PN" "490-18663-1-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23108,7 +23720,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/1bc317f5-f44c-437d-bddb-0b9902448b9b")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -23315,7 +23927,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/fff0722f-3124-41dd-af87-17b6da4e9a91")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.2 -2.2)
@@ -23482,7 +24094,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/6313d34b-d9d3-4333-b6b6-5d161840dbcf")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.2 -2.2)
@@ -23646,7 +24258,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Murata Electronics"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23660,7 +24272,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23674,7 +24286,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23688,7 +24300,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "GPC0805106-35"
+		(property "Supplier PN" "490-18663-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23705,7 +24317,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/278d7a02-8ce6-445f-888a-7b99b0c8b952")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -23869,7 +24481,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "PSMN1R4-40YLDX"
+		(property "Value" "PSMN3R3-80YSFX"
 			(at -0.245 -3.52 90)
 			(layer "B.Fab")
 			(uuid "08b9e537-00e8-4ead-a256-aaa817ca6920")
@@ -23881,7 +24493,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PSMN1R4-40YLD.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PSMN3R3-80YSF.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23895,7 +24507,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "240A, 40V Vds, N-Channel MOSFET, 1.4mOhm Ron, LFPAK56"
+		(property "Description" "N-Channel 80 V 160A (Tc) 300W (Tc) Surface Mount LFPAK56, Power-SO8"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23923,7 +24535,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MFPN" "PSMN1R4-40YLDX"
+		(property "MFPN" "PSMN3R3-80YSFX"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23951,7 +24563,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "1727-1857-1-ND"
+		(property "Supplier PN" "1727-PSMN3R3-80YSFXCT-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -23968,7 +24580,7 @@
 		(property ki_fp_filters "LFPAK56*")
 		(path "/7c9aeeb1-6b98-46c7-a1c7-631c1bebb32b")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(solder_paste_margin -0.05)
 		(attr smd)
 		(fp_line
@@ -24475,7 +25087,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/9eb495b2-fb31-45dc-b8b7-1ae77e0c3960")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -2.2 -2.2)
@@ -24639,7 +25251,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MF" ""
+		(property "MF" "Murata Electronics"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -24653,7 +25265,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MFPN" ""
+		(property "MFPN" "GRM21BR61H106KE43L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -24667,7 +25279,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier" "Eurocircuits"
+		(property "Supplier" "DigiKey"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -24681,7 +25293,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Supplier PN" "GPC0805106-35"
+		(property "Supplier PN" "490-18663-1-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -24698,7 +25310,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/009f5f6c-85f9-4d33-bbb3-cc7d7083a72f")
 		(sheetname "/")
-		(sheetfile "AM32_NXP_version.kicad_sch")
+		(sheetfile "MR-ESC-MCXA-AM32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)

@@ -594,7 +594,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "BOM_AM32_NXP.csv",
+    "bom_export_filename": "20260223_MR-ESC-MCXA-AM32_BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ";",
