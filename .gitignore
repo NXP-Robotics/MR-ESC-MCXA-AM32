@@ -1,5 +1,5 @@
 *.pdf
-!*AM32_NXP_version.pdf
+!*MR-ESC-MCXA-AM32.pdf
 /*-backups
 *.kicad_prl
 fp-info-cache
