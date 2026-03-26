@@ -7,8 +7,8 @@ using NXP MCXA153/MCXA133 MCU and running the open-source AM32 software.
 > This design is not supported by NXP motor control framework tools (it could of course be made to run with modifications)
 
 > [!NOTE]
-> AM32 fork with MCXA153/MCXA133 support: [AM32 MCXA153/MCXA133 firmware](https://github.com/NXPHoverGames/AM32/tree/main_am32_mcxa).
-> Build target for MCXA153 is "FRDM_A153".
+> AM32 fork with MCXA153/MCXA133 support: [AM32 MCXA153/MCXA133 application](https://github.com/NXPHoverGames/AM32/tree/main_am32_mcxa) and [AM32 MCXA153/MCXA133 bootloader](https://github.com/NXP-Robotics/AM32-bootloader/tree/main_mcxa).
+> Build target for MCXA153/MCXA133 in main application is "FRDM_A153" and "AM32_A153_BOOTLOADER_P1_2" in bootloader.
 > 
 > Design files are made with KiCAD.
 
