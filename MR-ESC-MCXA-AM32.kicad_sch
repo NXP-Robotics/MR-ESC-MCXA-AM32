@@ -5,13 +5,13 @@
 	(uuid "2f31c863-73f6-40da-99b0-f0fd74baf06a")
 	(paper "A3")
 	(title_block
-		(title "AM32 ESC with MCXA133VFM")
-		(date "2026-02-23")
-		(rev "X2")
-		(company "NXP Semiconductors")
-		(comment 1 "Designer: Youri Tils")
-		(comment 2 "Reviewer: Jari van Ewijk, Peter van der Perk")
-		(comment 3 "For Internal Use Only")
+		(title "${TITLE}")
+		(date "2026-09-28")
+		(rev "${BOARD_REV}")
+		(company "${COMPANY}")
+		(comment 1 "DESIGNER: ${DESIGNER}")
+		(comment 2 "${DEPARTMENT}")
+		(comment 3 "REVIEWED BY: ${REVIEWER}")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Current:INA180B1"
@@ -4625,29 +4625,6 @@
 		)
 		(uuid "c65e3f54-bb5d-43e1-8411-ff7f4d5e77a2")
 	)
-	(text_box "Revision X1: Created initial schematic"
-		(exclude_from_sim no)
-		(at 247.015 252.984 0)
-		(size 52.959 32.004)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type default)
-			(color 132 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-				(color 132 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "cac058fe-7006-4872-9dfe-8dab9bf3e16a")
-	)
 	(junction
 		(at 382.27 218.44)
 		(diameter 0)
@@ -7304,7 +7281,7 @@
 			(uuid "99b34348-90d1-4d59-8231-a3fa594e309c")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "C2")
 					(unit 1)
@@ -7370,7 +7347,7 @@
 			(uuid "36900adb-ccbd-48ea-ad5b-bfb11875381c")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR047")
 					(unit 1)
@@ -7473,7 +7450,7 @@
 			(uuid "9129b431-1b45-4aa8-a1f0-15b8409c19c8")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "TP13")
 					(unit 1)
@@ -7539,7 +7516,7 @@
 			(uuid "1ddcde4e-9950-41b0-b4ac-75f2f49f5300")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR025")
 					(unit 1)
@@ -7645,7 +7622,7 @@
 			(uuid "9f8aa80c-4c43-4437-8aab-dafe406e7c09")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "R10")
 					(unit 1)
@@ -7711,7 +7688,7 @@
 			(uuid "690ff2f8-b6ab-4381-80bb-f93dc502cb1f")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR04")
 					(unit 1)
@@ -7777,7 +7754,7 @@
 			(uuid "6ce5f320-586e-44d6-a4a5-67911a6e5f85")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR033")
 					(unit 1)
@@ -7843,7 +7820,7 @@
 			(uuid "3ed76518-32d3-4b89-8c81-093683c3bd44")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR045")
 					(unit 1)
@@ -7908,7 +7885,7 @@
 			(uuid "94af222f-9bca-4f75-a105-af3b487e0279")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "TP1")
 					(unit 1)
@@ -7974,7 +7951,7 @@
 			(uuid "ffd9cd4e-058e-480e-9d52-28fc39e7b748")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR030")
 					(unit 1)
@@ -8087,7 +8064,7 @@
 			(uuid "242c0ee7-6df1-47df-b082-4e32cffba2ce")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "U4")
 					(unit 1)
@@ -8191,7 +8168,7 @@
 			(uuid "9f8aa80c-4c43-4437-8aab-dafe406e7c0a")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "R11")
 					(unit 1)
@@ -8296,7 +8273,7 @@
 			(uuid "a615a532-af67-41f2-b3d1-355c63363640")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "C18")
 					(unit 1)
@@ -8363,7 +8340,7 @@
 			(uuid "6700350f-3aab-47ca-820d-c9213fc49f8e")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR040")
 					(unit 1)
@@ -8464,7 +8441,7 @@
 			(uuid "f4704ada-8f44-452e-9fce-d27cfc88a242")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "J16")
 					(unit 1)
@@ -8565,7 +8542,7 @@
 			(uuid "bb662eac-8b39-4116-bffb-a0573bff9baa")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "J12")
 					(unit 1)
@@ -8631,7 +8608,7 @@
 			(uuid "b02e0909-1760-444a-a02d-6a9c9f43ed6a")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR011")
 					(unit 1)
@@ -8736,7 +8713,7 @@
 			(uuid "fac28f4c-22d5-4f5e-b235-b5252bda224c")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "R1")
 					(unit 1)
@@ -8842,7 +8819,7 @@
 			(uuid "2080a556-a8ab-4352-b1e1-579af3fc7fa0")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "D4")
 					(unit 1)
@@ -8907,7 +8884,7 @@
 			(uuid "f7d6815c-181e-4c19-aded-8310985fb79e")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "TP8")
 					(unit 1)
@@ -9020,7 +8997,7 @@
 			(uuid "5addd58c-6ed8-4cf6-aea3-30a1bc29ab7e")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "U1")
 					(unit 1)
@@ -9126,7 +9103,7 @@
 			(uuid "30d054b0-3a95-4ee5-bb1d-7fa551383186")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "C7")
 					(unit 1)
@@ -9227,7 +9204,7 @@
 			(uuid "89b5410c-7536-4d30-9de8-d3591d7df5c9")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "J10")
 					(unit 1)
@@ -9333,7 +9310,7 @@
 			(uuid "22f65643-bf91-4546-97d4-37f06c0b4a47")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "C17")
 					(unit 1)
@@ -9450,7 +9427,7 @@
 			(uuid "a57201fb-4851-41cf-9de2-e2a4734bc7e1")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "Q4")
 					(unit 1)
@@ -9624,7 +9601,7 @@
 			(uuid "c4d109e8-689c-4a08-9414-b2c2438dfd88")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "U2")
 					(unit 1)
@@ -9690,7 +9667,7 @@
 			(uuid "d4d03af3-2a8a-4473-8a08-48a3f76bbadd")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR042")
 					(unit 1)
@@ -9756,7 +9733,7 @@
 			(uuid "dca2a9dc-a0e1-48cb-99f9-0ba35eb25273")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR05")
 					(unit 1)
@@ -9873,7 +9850,7 @@
 			(uuid "0f1f63c1-85b4-41a5-907c-0ca711665f4d")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "Q3")
 					(unit 1)
@@ -9939,7 +9916,7 @@
 			(uuid "bd4515ef-16da-4fec-bb76-b31d12e47b65")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR012")
 					(unit 1)
@@ -10005,7 +9982,7 @@
 			(uuid "060ab9b5-e6f0-4eb3-a044-93bd45ec2aa2")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR07")
 					(unit 1)
@@ -10111,7 +10088,7 @@
 			(uuid "d4d2652f-555c-4af8-822f-dc252c26cb9f")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "C10")
 					(unit 1)
@@ -10177,7 +10154,7 @@
 			(uuid "430f5c70-7eaf-4731-9ebf-a9771e567182")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR038")
 					(unit 1)
@@ -10283,7 +10260,7 @@
 			(uuid "fe66b777-1efe-4ca3-954b-ecc0e33d9596")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "C19")
 					(unit 1)
@@ -10349,7 +10326,7 @@
 			(uuid "b67fccfa-ca4f-4450-bf90-39d4a9a23e2d")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR046")
 					(unit 1)
@@ -10455,7 +10432,7 @@
 			(uuid "e06c4bb1-f712-4d3e-a12b-2933146928ac")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "C23")
 					(unit 1)
@@ -10556,7 +10533,7 @@
 			(uuid "956927f3-30c3-4da4-aeb5-1806fb7f8fe0")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "J8")
 					(unit 1)
@@ -10678,7 +10655,7 @@
 			(uuid "a7f782da-23d1-4c09-a1f2-93cd21cc922a")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "D2")
 					(unit 1)
@@ -10743,7 +10720,7 @@
 			(uuid "f7d6815c-181e-4c19-aded-8310985fb79f")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "TP3")
 					(unit 1)
@@ -10848,7 +10825,7 @@
 			(uuid "3655d9b8-855e-4536-8f96-83870462a16d")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "R2")
 					(unit 1)
@@ -10965,7 +10942,7 @@
 			(uuid "ce86d122-d1c1-4574-babf-eaf17ddf4611")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "Q2")
 					(unit 1)
@@ -11031,7 +11008,7 @@
 			(uuid "64d7f257-d24e-4c91-ac1b-c7eee0f35327")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR024")
 					(unit 1)
@@ -11096,7 +11073,7 @@
 			(uuid "f7d6815c-181e-4c19-aded-8310985fb7a0")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "TP4")
 					(unit 1)
@@ -11199,7 +11176,7 @@
 			(uuid "6946b4af-e855-490e-a9f4-016d3aea6f88")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "R5")
 					(unit 1)
@@ -11300,7 +11277,7 @@
 			(uuid "12874a02-64b9-441a-ac31-fd3930f21e97")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "J14")
 					(unit 1)
@@ -11406,7 +11383,7 @@
 			(uuid "7a0b3279-89e0-441e-b24b-93183bc3ff95")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "C20")
 					(unit 1)
@@ -11471,7 +11448,7 @@
 			(uuid "eda12acd-1fd0-412f-801e-90e28ec0b091")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "TP5")
 					(unit 1)
@@ -11577,7 +11554,7 @@
 			(uuid "10859b9a-602c-4527-ae2e-7388aa1e61de")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "C25")
 					(unit 1)
@@ -11643,7 +11620,7 @@
 			(uuid "e7e3d51e-3b79-4c21-9139-2b3231c256a5")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR017")
 					(unit 1)
@@ -11749,7 +11726,7 @@
 			(uuid "cbb6f628-bc78-4e38-a496-79ecedc02035")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "R20")
 					(unit 1)
@@ -11855,7 +11832,7 @@
 			(uuid "9f8aa80c-4c43-4437-8aab-dafe406e7c0b")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "R8")
 					(unit 1)
@@ -11967,7 +11944,7 @@
 			(uuid "3f90980c-576f-4916-910b-70dda653507c")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "R21")
 					(unit 1)
@@ -12072,7 +12049,7 @@
 			(uuid "29268a7b-e6ae-418e-af60-86f522fcd2fb")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "C1")
 					(unit 1)
@@ -12138,7 +12115,7 @@
 			(uuid "80f310ba-cfca-46c6-aa66-39a8044426c9")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR010")
 					(unit 1)
@@ -12239,7 +12216,7 @@
 			(uuid "418c6710-4d01-4b0c-8b92-164ea09d533c")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "J9")
 					(unit 1)
@@ -12345,7 +12322,7 @@
 			(uuid "ee171207-2530-4bb1-b838-251bb199f90b")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "R14")
 					(unit 1)
@@ -12451,7 +12428,7 @@
 			(uuid "9f8aa80c-4c43-4437-8aab-dafe406e7c0c")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "R15")
 					(unit 1)
@@ -12563,7 +12540,7 @@
 			(uuid "135761b8-cf89-4682-91f5-1ef74c06e32b")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "U6")
 					(unit 1)
@@ -12628,7 +12605,7 @@
 			(uuid "37ce5289-ad32-4b53-a991-bf87d2be8a25")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "TP6")
 					(unit 1)
@@ -12731,7 +12708,7 @@
 			(uuid "f9fb325e-6a77-44b0-a6cf-d4e16585fd9f")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "R18")
 					(unit 1)
@@ -12796,7 +12773,7 @@
 			(uuid "2369e30b-26c3-4016-b93e-225c38becdcf")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "J2")
 					(unit 1)
@@ -12861,7 +12838,7 @@
 			(uuid "f7d6815c-181e-4c19-aded-8310985fb7a1")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "TP2")
 					(unit 1)
@@ -12962,7 +12939,7 @@
 			(uuid "abdf0d08-827b-43a4-bd9d-dd0724712cb5")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "J15")
 					(unit 1)
@@ -13065,7 +13042,7 @@
 			(uuid "ba6e6444-50b7-4662-87ba-afa6b5940fdc")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "C24")
 					(unit 1)
@@ -13171,7 +13148,7 @@
 			(uuid "d4437dc5-62f9-4038-993d-7245116cb8a8")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "C3")
 					(unit 1)
@@ -13293,7 +13270,7 @@
 			(uuid "a7f782da-23d1-4c09-a1f2-93cd21cc922b")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "D1")
 					(unit 1)
@@ -13359,7 +13336,7 @@
 			(uuid "042e2e88-29d7-4cce-86aa-81dfd59651e8")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR043")
 					(unit 1)
@@ -13425,7 +13402,7 @@
 			(uuid "39ffe2c1-8abd-478d-802e-acf5ded1f0e4")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR015")
 					(unit 1)
@@ -13491,7 +13468,7 @@
 			(uuid "e6ade556-b029-4da8-b6d9-dce71a4a42c4")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR028")
 					(unit 1)
@@ -13595,7 +13572,7 @@
 			(uuid "9f8aa80c-4c43-4437-8aab-dafe406e7c0d")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "R12")
 					(unit 1)
@@ -13662,7 +13639,7 @@
 			(uuid "f7efa275-9b9a-4002-a89c-a4bbfac45b97")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "J18")
 					(unit 1)
@@ -13765,7 +13742,7 @@
 			(uuid "895de7b6-181d-48b0-9c2d-489f8fb83407")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "R17")
 					(unit 1)
@@ -13831,7 +13808,7 @@
 			(uuid "dcaa80d5-4e26-4c1a-88e1-b9e4e06ee100")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR032")
 					(unit 1)
@@ -13948,7 +13925,7 @@
 			(uuid "0ddb4b9b-0863-4590-8705-63af14fde202")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "Q6")
 					(unit 1)
@@ -14013,7 +13990,7 @@
 			(uuid "2369e30b-26c3-4016-b93e-225c38becdd0")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "J1")
 					(unit 1)
@@ -14119,7 +14096,7 @@
 			(uuid "efa896ef-3f57-401a-8bc8-444ec3f850b7")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "C21")
 					(unit 1)
@@ -14225,7 +14202,7 @@
 			(uuid "2e6e7a01-789b-430a-9e05-18f56d4c1aa6")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "SW1")
 					(unit 1)
@@ -14291,7 +14268,7 @@
 			(uuid "e922ff14-e49a-43ba-a87f-6f561dec5bd3")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR031")
 					(unit 1)
@@ -14397,7 +14374,7 @@
 			(uuid "9f8aa80c-4c43-4437-8aab-dafe406e7c0e")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "R9")
 					(unit 1)
@@ -14503,7 +14480,7 @@
 			(uuid "501eafae-fa60-46e5-acd4-77ed70716752")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "C8")
 					(unit 1)
@@ -14607,7 +14584,7 @@
 			(uuid "e9ed620a-f9e9-411a-a8b8-f97b53ee896f")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "R22")
 					(unit 1)
@@ -14673,7 +14650,7 @@
 			(uuid "3056473a-c88f-403e-bb8e-89341e043fa2")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR019")
 					(unit 1)
@@ -14739,7 +14716,7 @@
 			(uuid "21d15728-e35f-4844-a0a0-c25854582d5b")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR023")
 					(unit 1)
@@ -14865,7 +14842,7 @@
 			(uuid "49e10007-bc3d-4335-bb51-6cd5484e5bc6")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "Q1")
 					(unit 1)
@@ -14982,7 +14959,7 @@
 			(uuid "9cecf857-bfbc-411a-a8aa-1101c0edaa94")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "Q5")
 					(unit 1)
@@ -15048,7 +15025,7 @@
 			(uuid "e464fe98-e339-4151-9851-f18c81f3421d")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR016")
 					(unit 1)
@@ -15153,7 +15130,7 @@
 			(uuid "c18202bb-83d1-451e-b880-97e1a4d5f9da")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "R4")
 					(unit 1)
@@ -15219,7 +15196,7 @@
 			(uuid "30097c4d-5e6b-43ce-83be-f9628dd0c36b")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR027")
 					(unit 1)
@@ -15325,7 +15302,7 @@
 			(uuid "d14cbb35-a601-4aa8-8121-e45d1b0a069b")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "C15")
 					(unit 1)
@@ -15447,7 +15424,7 @@
 			(uuid "a7f782da-23d1-4c09-a1f2-93cd21cc922c")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "D3")
 					(unit 1)
@@ -15513,7 +15490,7 @@
 			(uuid "9842affd-955e-459f-ab16-520b0fb278d2")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR041")
 					(unit 1)
@@ -15616,7 +15593,7 @@
 			(uuid "3041e638-53a1-4455-b34a-2502bebb3e25")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "R19")
 					(unit 1)
@@ -15722,7 +15699,7 @@
 			(uuid "d0d9c94a-7215-4ec4-a0fc-bcfa6811fd66")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "C13")
 					(unit 1)
@@ -15788,7 +15765,7 @@
 			(uuid "430f5c70-7eaf-4731-9ebf-a9771e567183")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR036")
 					(unit 1)
@@ -15854,7 +15831,7 @@
 			(uuid "7f584fcf-976b-4c13-8ed3-7d97a5403495")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR09")
 					(unit 1)
@@ -15920,7 +15897,7 @@
 			(uuid "430f5c70-7eaf-4731-9ebf-a9771e567184")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR037")
 					(unit 1)
@@ -15986,7 +15963,7 @@
 			(uuid "9ba1453d-37ec-45c1-abaa-054f1b03acd0")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "TP12")
 					(unit 1)
@@ -16053,7 +16030,7 @@
 			(uuid "f7efa275-9b9a-4002-a89c-a4bbfac45b98")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "J19")
 					(unit 1)
@@ -16068,7 +16045,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ebbe55a-f380-47c8-a901-51d60f783789")
 		(property "Reference" "C11"
@@ -16168,7 +16145,7 @@
 			(uuid "c20fe93b-11b3-41a0-b1b2-bc8f5a09be11")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "C11")
 					(unit 1)
@@ -16234,7 +16211,7 @@
 			(uuid "873d2e85-20fb-4e17-8f2f-784a38029f6c")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR029")
 					(unit 1)
@@ -16301,7 +16278,7 @@
 			(uuid "3f221869-32c0-47f2-a0c7-ea3cacf61368")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "TP11")
 					(unit 1)
@@ -16406,7 +16383,7 @@
 			(uuid "4706be22-5f47-4030-be8e-e08634993db0")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "R25")
 					(unit 1)
@@ -16507,7 +16484,7 @@
 			(uuid "b87e2ae5-66e4-435a-9a61-887a28f7680f")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "J11")
 					(unit 1)
@@ -16608,7 +16585,7 @@
 			(uuid "2e8b7651-db64-4f4b-85f1-00dd72cf177c")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "J7")
 					(unit 1)
@@ -16673,7 +16650,7 @@
 			(uuid "c774460c-b5b9-447a-99ce-a0735e8fbb98")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "TP7")
 					(unit 1)
@@ -16779,7 +16756,7 @@
 			(uuid "cbb6f628-bc78-4e38-a496-79ecedc02036")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "R24")
 					(unit 1)
@@ -16897,7 +16874,7 @@
 			(uuid "8e460d17-e64c-4ba9-8b75-4a68cd694ed2")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "U5")
 					(unit 1)
@@ -17003,7 +16980,7 @@
 			(uuid "cbb6f628-bc78-4e38-a496-79ecedc02037")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "R23")
 					(unit 1)
@@ -17068,7 +17045,7 @@
 			(uuid "2b59418a-87b6-4ea5-b1bd-842c87cec2d3")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR013")
 					(unit 1)
@@ -17169,7 +17146,7 @@
 			(uuid "d72ee73e-ca17-49ef-81b0-d2f2006aa2b7")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "J6")
 					(unit 1)
@@ -17235,7 +17212,7 @@
 			(uuid "dec3a787-719e-40db-9efe-42a325dafe1b")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR035")
 					(unit 1)
@@ -17301,7 +17278,7 @@
 			(uuid "442cee70-045f-4823-8fc3-80b3e7178328")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR02")
 					(unit 1)
@@ -17367,7 +17344,7 @@
 			(uuid "e838e9c1-67ac-47d2-a225-8f5e8ec81652")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR018")
 					(unit 1)
@@ -17433,7 +17410,7 @@
 			(uuid "28ff0368-ac4f-4ba6-a597-61418cdb7884")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR049")
 					(unit 1)
@@ -17536,7 +17513,7 @@
 			(uuid "80d76ac9-4d82-4629-8283-21e69ed51c6c")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "R6")
 					(unit 1)
@@ -17641,7 +17618,7 @@
 			(uuid "7e94be30-b864-45f1-bdfe-40deea99153d")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "C22")
 					(unit 1)
@@ -17707,7 +17684,7 @@
 			(uuid "b8384dbf-3a9e-46ab-ad59-d236d8fcd2c0")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR06")
 					(unit 1)
@@ -17914,7 +17891,7 @@
 			(uuid "5545460d-d0c9-4ea9-b5f6-7554c041a1a5")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "U3")
 					(unit 1)
@@ -18020,7 +17997,7 @@
 			(uuid "602b04ed-6e60-4c6d-8832-818446ff2826")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "C12")
 					(unit 1)
@@ -18086,7 +18063,7 @@
 			(uuid "7b00eb87-d237-4965-b148-c60cfbeb00f3")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR03")
 					(unit 1)
@@ -18192,7 +18169,7 @@
 			(uuid "1b4284d0-8378-4148-9f72-dae67922593c")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "C6")
 					(unit 1)
@@ -18256,7 +18233,7 @@
 			(uuid "f7d6815c-181e-4c19-aded-8310985fb7a2")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "TP10")
 					(unit 1)
@@ -18322,7 +18299,7 @@
 			(uuid "0d48e484-5a54-4961-b09b-2d1bdbd5bdf4")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR014")
 					(unit 1)
@@ -18388,7 +18365,7 @@
 			(uuid "5800af9b-8f0b-4351-85ec-d053a5ba3a98")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR020")
 					(unit 1)
@@ -18454,7 +18431,7 @@
 			(uuid "59048d33-51d3-479b-838d-75ca4308f889")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR048")
 					(unit 1)
@@ -18520,7 +18497,7 @@
 			(uuid "7384b960-bdf4-416d-9c28-c699b51bc91a")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR021")
 					(unit 1)
@@ -18625,7 +18602,7 @@
 			(uuid "707f779a-e285-46bc-8ccc-20da74924ae8")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "R3")
 					(unit 1)
@@ -18691,7 +18668,7 @@
 			(uuid "dc7a59d8-dfe5-48bb-b4ff-bfac32ff2e61")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR044")
 					(unit 1)
@@ -18755,7 +18732,7 @@
 			(uuid "f7d6815c-181e-4c19-aded-8310985fb7a3")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "TP9")
 					(unit 1)
@@ -18822,7 +18799,7 @@
 			(uuid "d0e1ab47-6a64-4c30-91e0-e8cd87a707d5")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR034")
 					(unit 1)
@@ -18928,7 +18905,7 @@
 			(uuid "601834a8-6bac-49c5-8f93-955c3253db1b")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "C4")
 					(unit 1)
@@ -18994,7 +18971,7 @@
 			(uuid "a6bf12b5-6649-4162-b56a-1a92266c1895")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR026")
 					(unit 1)
@@ -19100,7 +19077,7 @@
 			(uuid "85015d00-6c6b-4d11-b26b-6e12f9a6c969")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "C9")
 					(unit 1)
@@ -19204,7 +19181,7 @@
 			(uuid "9f8aa80c-4c43-4437-8aab-dafe406e7c0f")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "R13")
 					(unit 1)
@@ -19270,7 +19247,7 @@
 			(uuid "597a6c1e-db29-4192-9b6d-7c1634ee5882")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR022")
 					(unit 1)
@@ -19336,7 +19313,7 @@
 			(uuid "b0cdc0d6-6c09-4c33-9736-134b279f2c23")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR01")
 					(unit 1)
@@ -19442,7 +19419,7 @@
 			(uuid "dce69f50-0299-49e0-b28c-a930460ab014")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "C5")
 					(unit 1)
@@ -19508,7 +19485,7 @@
 			(uuid "9338d390-e781-442a-9fba-69d3b34e5c20")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR039")
 					(unit 1)
@@ -19611,7 +19588,7 @@
 			(uuid "53873ada-9f60-434c-a516-c44f65d2419b")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "R7")
 					(unit 1)
@@ -19732,7 +19709,7 @@
 			(uuid "95c23749-4c6f-49e3-b792-e9b8e0102a40")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "J13")
 					(unit 1)
@@ -19798,7 +19775,7 @@
 			(uuid "6b743a74-65ea-484b-8892-3e5251ba23f6")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "#PWR08")
 					(unit 1)
@@ -19904,7 +19881,7 @@
 			(uuid "4bf49734-94d4-421f-abb9-07e366c7c558")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "C14")
 					(unit 1)
@@ -20010,7 +19987,7 @@
 			(uuid "6d09dbef-a811-4842-8f14-cca942937ab4")
 		)
 		(instances
-			(project "AM32_NXP_version"
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "C16")
 					(unit 1)
@@ -20116,7 +20093,7 @@
 			(uuid "9f8aa80c-4c43-4437-8aab-dafe406e7c10")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "R16")
 					(unit 1)
@@ -20182,7 +20159,7 @@
 			(uuid "f7efa275-9b9a-4002-a89c-a4bbfac45b99")
 		)
 		(instances
-			(project ""
+			(project "MR-ESC-MCXA-AM32"
 				(path "/2f31c863-73f6-40da-99b0-f0fd74baf06a"
 					(reference "J17")
 					(unit 1)
