@@ -1,0 +1,192 @@
+# Pinout data for the MR-ESC-MCXA-AM32 hardware reference. The cards, photos and tables are generated from this file.
+
+meta:
+  title: MR-ESC-MCXA-AM32 hardware reference
+  short_title: MR-ESC-MCXA-AM32
+  soc: MCXA153
+
+categories:
+  vin:   {label: "VIN 6-24 V",      fill: "#8b1a1a", dark: "#f85149"}
+  5v:    {label: "5 V",             fill: "#d1242f", dark: "#ff7b72"}
+  3v3:   {label: "3.3 V",           fill: "#bc4c00", dark: "#f0883e"}
+  gnd:   {label: "GND",             fill: "#1f2328", dark: "#6e7681"}
+  uart:  {label: "UART",            fill: "#0969da", dark: "#58a6ff"}
+  i2c:   {label: "I2C",             fill: "#8250df", dark: "#bc8cff"}
+  spi:   {label: "SPI",             fill: "#1a7f37", dark: "#3fb950"}
+  pwm:   {label: "PWM / timer",     fill: "#9a6700", dark: "#d29922"}
+  can:   {label: "CAN FD",          fill: "#0a7c86", dark: "#39c5cf"}
+  usb:   {label: "USB",             fill: "#a40e6b", dark: "#f778ba"}
+  eth:   {label: "Ethernet",        fill: "#116329", dark: "#56d364"}
+  pcie:  {label: "PCIe / M.2",      fill: "#3b3b8f", dark: "#a5b4fc"}
+  debug: {label: "SWD / JTAG",      fill: "#57606a", dark: "#8b949e"}
+  boot:  {label: "Boot mode",       fill: "#bf3989", dark: "#f778ba"}
+  gpio:  {label: "GPIO / misc",     fill: "#6e7781", dark: "#8b949e"}
+  adc:   {label: "Analog",          fill: "#bf3989", dark: "#ff9bce"}
+  audio: {label: "Audio",           fill: "#7d4e00", dark: "#e3b341"}
+  motor: {label: "Motor phase",     fill: "#6f3a00", dark: "#f0883e"}
+  nc:    {label: "NC / key",        fill: "#eaeef2", dark: "#30363d", text: "#57606a"}
+
+boards:
+  main: {name: "MR-ESC-MCXA-AM32", short: ESC, tag: "ESC board"}
+
+overviews:
+  top:
+    photo: ESC_TOP.JPG
+    crop: [0.14, 0.02, 0.73, 0.98]
+    max_px: 1020
+    alt: "MR-ESC-MCXA-AM32 top view with labels"
+    callouts:
+      - {conn: main/J13, x: 0.520, y: 0.175, side: top}
+      - {conn: main/ENC, x: 0.618, y: 0.123, side: top}
+      - {conn: main/RGB, x: 0.610, y: 0.312, side: right}
+      - {conn: main/RC,  x: 0.691, y: 0.408, side: right, label: "TX Telemetry out"}
+      - {conn: main/RC,  x: 0.691, y: 0.522, side: right, label: "S Throttle in"}
+      - {conn: main/RC,  x: 0.691, y: 0.637, side: right, label: "G Ground"}
+      - {conn: main/SW1, x: 0.620, y: 0.745, side: bottom}
+      - {conn: main/PWR, hidden: "bottom view"}
+      - {conn: main/MOTOR, hidden: "bottom view"}
+  bottom:
+    photo: ESC_BOTTOM.JPG
+    crop: [0.14, 0.02, 0.74, 0.98]
+    max_px: 1100
+    alt: "MR-ESC-MCXA-AM32 bottom view with labels"
+    callouts:
+      - {conn: main/PWR,   x: 0.700, y: 0.160, side: right, label: "Battery -"}
+      - {conn: main/PWR,   x: 0.700, y: 0.855, side: right, label: "Battery +"}
+      - {conn: main/MOTOR, x: 0.175, y: 0.181, side: left, label: "Motor A"}
+      - {conn: main/MOTOR, x: 0.175, y: 0.469, side: left, label: "Motor B"}
+      - {conn: main/MOTOR, x: 0.175, y: 0.757, side: left, label: "Motor C"}
+
+connectors:
+  - ref: PWR
+    board: main
+    name: BATTERY
+    cat: vin
+    function: "Battery input, 6 to 24 V (2S to 6S LiPo)"
+    type: "Two solder pads on the bottom side, marked + and -"
+    source: "MR-ESC-MCXA-AM32.kicad_sch"
+    layout: single
+    notes: >
+      Solder the battery leads here. Input range is 6 to 24 V, so 2S to 6S LiPo. The 5 V and
+      3.3 V rails come from two TPS7B92 linear regulators on this input; below about 6 V the
+      5 V rail drops out. All parts on the battery rail are rated 35 V or more (capacitors 35 V,
+      regulators 40 V, FETs 80 V), which leaves margin for a full 6S pack at 25.2 V. Keep the
+      470 µF capacitor across the pads when you use long battery leads.
+    alerts:
+      - {type: caution, text: "There is no reverse polarity protection. Check + and - before you connect a battery."}
+    pins:
+      - {n: "+", net: "+BATT", cat: vin, label: "Battery +"}
+      - {n: "-", net: GND, cat: gnd, label: "Battery -"}
+
+  - ref: MOTOR
+    board: main
+    name: PHASES
+    cat: motor
+    function: "Three motor phase outputs"
+    type: "Three solder pads on the bottom side, marked A, B and C"
+    source: "MR-ESC-MCXA-AM32.kicad_sch"
+    layout: single
+    notes: >
+      Each phase is a half bridge of two PSMN3R3-80 FETs (80 V), driven by the gate driver U2. Swap any
+      two phases to reverse the motor direction. The phase voltages also feed the back-EMF
+      comparators of the MCU, which is how the ESC senses the rotor position.
+    pins:
+      - {n: A, net: MOTORA, cat: motor, label: "Phase A"}
+      - {n: B, net: MOTORB, cat: motor, label: "Phase B"}
+      - {n: C, net: MOTORC, cat: motor, label: "Phase C"}
+
+  - ref: RC
+    board: main
+    name: SIGNAL
+    cat: pwm
+    function: "Throttle input and telemetry output, solder pads"
+    type: "Three wire pads marked S, G and TX, 3.3 V logic"
+    source: "MR-ESC-MCXA-AM32.kicad_sch"
+    layout: single
+    notes: >
+      S is the throttle signal from the flight controller. The AM32 port for this MCU detects the
+      input type by itself and supports DShot300, DShot600 (both also as bidirectional DShot) and
+      normal servo PWM (1 to 2 ms, up to 400 Hz). DShot150 and other protocols are not supported.
+      AM32 reads the signal with a CTIMER0 capture input and, for bidirectional DShot, switches
+      the same pin to LPSPI0 to send the RPM telemetry back on the signal wire. TX is the AM32 serial telemetry
+      output on LPUART1, 115200 baud, for a flight controller ESC telemetry input.
+    alerts:
+      - {type: note, text: "The signal input is 3.3 V logic. Do not connect it to a 5 V PWM source without a level shifter."}
+    pins:
+      - {n: S,  net: SIGNAL_INPUT, cat: pwm,  label: "Throttle in", pad: P1_2, alt: [CT_INP0, LPSPI0_SDI]}
+      - {n: G,  net: GND,          cat: gnd}
+      - {n: TX, net: TX,           cat: uart, label: "Telemetry out", pad: P1_9, alt: [LPUART1_TXD]}
+
+  - ref: J13
+    board: main
+    name: DEBUG
+    cat: debug
+    function: "SWD debug and console (DS-009 debug mini)"
+    type: "JST-SH 1x6 (BM06B-SRSS-TB)"
+    standard: "DS-009 debug mini"
+    level: "3.3 V logic"
+    source: "MR-ESC-MCXA-AM32.kicad_sch"
+    layout: single
+    notes: >
+      Flash and debug the MCU over SWD with any probe that supports the DS-009 debug mini cable.
+      Pins 2 and 3 are LPUART0 on the MCU, free for a console; AM32 sends its telemetry on
+      LPUART1 (the TX pad) instead. Pin 1 is a 3.3 V reference output for the probe.
+    alerts:
+      - {type: warning, text: "Pin 1 is a reference output, not a supply input. Never power the board from it."}
+    pins:
+      - {n: 1, net: "+3.3V", cat: 3v3,   label: "VREF 3.3V"}
+      - {n: 2, net: NC/TDI,  cat: uart,  label: "UART TX",  pad: P0_3, alt: [LPUART0_TXD]}
+      - {n: 3, net: SWO/TDO, cat: uart,  label: "UART RX",  pad: P0_2, alt: [LPUART0_RXD]}
+      - {n: 4, net: SWDIO/TMS,   cat: debug, label: "SWDIO",  pad: P0_0}
+      - {n: 5, net: SWCLK/TCLK,  cat: debug, label: "SWCLK",  pad: P0_1}
+      - {n: 6, net: GND, cat: gnd}
+
+  - ref: ENC
+    board: main
+    name: ENCODER
+    cat: gpio
+    function: "Spare MCU pins for a quadrature encoder, solder pads"
+    type: "Four pads marked A, B, I and G, 3.3 V logic"
+    source: "MR-ESC-MCXA-AM32.kicad_sch"
+    layout: single
+    notes: >
+      Prepared for an encoder on wheeled robots, where the ESC needs odometry. The AM32 firmware
+      does not use them yet; it only drives A and I as debug outputs. Nothing else on the board
+      is connected to these pins.
+    pins:
+      - {n: A, net: ENC_A, cat: gpio, label: "Encoder A", pad: P3_27}
+      - {n: B, net: ENC_B, cat: gpio, label: "Encoder B", pad: P2_17}
+      - {n: I, net: ENC_I, cat: gpio, label: "Encoder index", pad: P3_28}
+      - {n: G, net: GND,   cat: gnd}
+
+  - ref: RGB
+    board: main
+    name: LED CHAIN
+    cat: spi
+    function: "Output of the on-board RGB LED chain, solder pads"
+    type: "Three pads marked SDO, SCK and G, 3.3 V logic"
+    source: "MR-ESC-MCXA-AM32.kicad_sch"
+    layout: single
+    notes: >
+      The MCU drives one APA102-type RGB LED (U5) on LPSPI1. These pads are the data and clock
+      outputs of that LED, so more LEDs of the same type can be chained from here.
+    pins:
+      - {n: SDO, net: SPI_SDO, cat: spi, label: "LED data out",  via: "RGB LED U5", pad: P2_13, alt: [LPSPI1_SDO]}
+      - {n: SCK, net: SPI_SCK, cat: spi, label: "LED clock out", via: "RGB LED U5", pad: P2_12, alt: [LPSPI1_SCK]}
+      - {n: G,   net: GND, cat: gnd}
+
+  - ref: SW1
+    board: main
+    name: ISP
+    cat: boot
+    function: "ISP boot button"
+    type: "Tactile switch"
+    source: "MR-ESC-MCXA-AM32.kicad_sch"
+    layout: summary
+    summary: "Hold it while power comes up to start the MCU boot ROM in ISP mode (P3_29 pulled low). Normal boot otherwise."
+
+
+cheatsheet:
+  brand: MR-ESC-MCXA-AM32
+  pages:
+    - {title: "MR-ESC-MCXA-AM32", boards: [main]}
